@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d097a9e471bd1f642a40a09a11b82780, type: 3}
+  m_Name: Red Berry
+  m_EditorClassIdentifier: 
+  name: RedBerry
+  prefab: {fileID: 4028008422834937437, guid: 304cd4580dfcb6140b4b468fd70ed770, type: 3}
+  icon: {fileID: 21300000, guid: 039dc5d1759ca8b4199c4abd59dd5f1a, type: 3}
+  sellValue: 25
+  value: 50

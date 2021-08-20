@@ -1,0 +1,3454 @@
+fileFormatVersion: 2
+guid: a2fbbf5d8f0eb614b863829be7c21396
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: animationControls_grpWolf
+  - first:
+      1: 100002
+    second: back_legJoints_const_grpWolf
+  - first:
+      1: 100004
+    second: body_ctrlWolf
+  - first:
+      1: 100006
+    second: character_grpWolf
+  - first:
+      1: 100008
+    second: characterScale_grpWolf
+  - first:
+      1: 100010
+    second: dontTouch_grpWolf
+  - first:
+      1: 100012
+    second: dontTouchJoints_grpWolf
+  - first:
+      1: 100014
+    second: ear_const_grpWolf
+  - first:
+      1: 100016
+    second: ear_ctrlWolf
+  - first:
+      1: 100018
+    second: earJoints_const_grpWolf
+  - first:
+      1: 100020
+    second: FK_head_jntWolf
+  - first:
+      1: 100022
+    second: FK_neck_jnt1Wolf
+  - first:
+      1: 100024
+    second: FK_neck_jnt2Wolf
+  - first:
+      1: 100026
+    second: FK_neck_jnt3Wolf
+  - first:
+      1: 100028
+    second: FK_neck_jnt4Wolf
+  - first:
+      1: 100030
+    second: FK_neck_jnt5Wolf
+  - first:
+      1: 100032
+    second: FK_spine_back1_jntWolf
+  - first:
+      1: 100034
+    second: FK_spine_back2_jntWolf
+  - first:
+      1: 100036
+    second: FK_spine_front1_jntWolf
+  - first:
+      1: 100038
+    second: FK_spine_front2_jntWolf
+  - first:
+      1: 100040
+    second: FK_spine_front3_jntWolf
+  - first:
+      1: 100042
+    second: FK_spine_joints_grpWolf
+  - first:
+      1: 100044
+    second: fkBack1_ctrl_grpWolf
+  - first:
+      1: 100046
+    second: fkBack1_ctrlWolf
+  - first:
+      1: 100048
+    second: fkBack2_ctrl_grpWolf
+  - first:
+      1: 100050
+    second: fkBack2_ctrlWolf
+  - first:
+      1: 100052
+    second: fkBack3_ctrl_grpWolf
+  - first:
+      1: 100054
+    second: fkBack3_ctrlWolf
+  - first:
+      1: 100056
+    second: fkNeck_grpWolf
+  - first:
+      1: 100058
+    second: front_legJoints_const_grpWolf
+  - first:
+      1: 100060
+    second: head_ctrl_grpWolf
+  - first:
+      1: 100062
+    second: head_ctrlWolf
+  - first:
+      1: 100064
+    second: head_jntWolf
+  - first:
+      1: 100066
+    second: head_shoulderSpace_grpWolf
+  - first:
+      1: 100068
+    second: head_worldSpace_grpWolf
+  - first:
+      1: 100070
+    second: headConst_grpWolf
+  - first:
+      1: 100072
+    second: headEnd_jntWolf
+  - first:
+      1: 100074
+    second: heightMeasure_distWolf
+  - first:
+      1: 100076
+    second: heightMeasureEnd_locWolf
+  - first:
+      1: 100078
+    second: heightMeasureStart_locWolf
+  - first:
+      1: 100080
+    second: IK_head_jntWolf
+  - first:
+      1: 100082
+    second: IK_neck_jnt1Wolf
+  - first:
+      1: 100084
+    second: IK_neck_jnt2Wolf
+  - first:
+      1: 100086
+    second: IK_neck_jnt3Wolf
+  - first:
+      1: 100088
+    second: IK_neck_jnt4Wolf
+  - first:
+      1: 100090
+    second: IK_neck_jnt5Wolf
+  - first:
+      1: 100092
+    second: ikNeck_grpWolf
+  - first:
+      1: 100094
+    second: ikNeckJoints_grpWolf
+  - first:
+      1: 100096
+    second: joint1
+  - first:
+      1: 100098
+    second: joint2
+  - first:
+      1: 100100
+    second: joint3
+  - first:
+      1: 100102
+    second: L_autoHeelEnd_locWolf
+  - first:
+      1: 100104
+    second: L_autoHeelMeasure_distWolf
+  - first:
+      1: 100106
+    second: L_autoHeelStart_locWolf
+  - first:
+      1: 100108
+    second: L_back_autoHeel_grpWolf
+  - first:
+      1: 100110
+    second: L_back_coffin_IKhandleWolf
+  - first:
+      1: 100112
+    second: L_back_coffinEnd_jntWolf
+  - first:
+      1: 100114
+    second: L_back_controlLeg_IKhandleWolf
+  - first:
+      1: 100116
+    second: L_back_fetlock_IKhandleWolf
+  - first:
+      1: 100118
+    second: L_back_fetlock_jntWolf
+  - first:
+      1: 100120
+    second: L_back_fetlockLift_grpWolf
+  - first:
+      1: 100122
+    second: L_back_fetlockLift_pointGrpWolf
+  - first:
+      1: 100124
+    second: L_back_foot_ctrlJntWolf
+  - first:
+      1: 100126
+    second: L_back_foot_ctrlWolf
+  - first:
+      1: 100128
+    second: L_back_foot_jntWolf
+  - first:
+      1: 100130
+    second: L_back_footTwist_grpWolf
+  - first:
+      1: 100132
+    second: L_back_heelLift_constGrpWolf
+  - first:
+      1: 100134
+    second: L_back_heelLift_grpWolf
+  - first:
+      1: 100136
+    second: L_back_heelLift_pointGrpWolf
+  - first:
+      1: 100138
+    second: L_back_hip_ctrlGrpWolf
+  - first:
+      1: 100140
+    second: L_back_hip_ctrlWolf
+  - first:
+      1: 100142
+    second: L_back_hip_IKhandleWolf
+  - first:
+      1: 100144
+    second: L_back_hipShift_ctrlWolf
+  - first:
+      1: 100146
+    second: L_back_leg_controls_grpWolf
+  - first:
+      1: 100148
+    second: L_back_leg_IKhandleWolf
+  - first:
+      1: 100150
+    second: L_back_lowLeg_ctrlJntWolf
+  - first:
+      1: 100152
+    second: L_back_lowLeg_jntWolf
+  - first:
+      1: 100154
+    second: L_back_lowLegTwist1_jntWolf
+  - first:
+      1: 100156
+    second: L_back_lowLegTwist2_jntWolf
+  - first:
+      1: 100158
+    second: L_back_pastern_IKhandleWolf
+  - first:
+      1: 100160
+    second: L_back_pastern_jntWolf
+  - first:
+      1: 100162
+    second: L_back_poleVector_rotGrpWolf
+  - first:
+      1: 100164
+    second: L_back_poleVectorConstGrpWolf
+  - first:
+      1: 100166
+    second: L_back_poleVectorWolf
+  - first:
+      1: 100168
+    second: L_back_tipToe_grpWolf
+  - first:
+      1: 100170
+    second: L_back_tipTwist_grpWolf
+  - first:
+      1: 100172
+    second: L_back_toe_ctrlJntWolf
+  - first:
+      1: 100174
+    second: L_back_toeWiggle_grpWolf
+  - first:
+      1: 100176
+    second: L_back_upLeg_ctrlJntWolf
+  - first:
+      1: 100178
+    second: L_back_upLeg_jntWolf
+  - first:
+      1: 100180
+    second: L_back_upLegTwist1_jntWolf
+  - first:
+      1: 100182
+    second: L_back_upLegTwist2_jntWolf
+  - first:
+      1: 100184
+    second: L_back_upLegTwist_aimConstGrpWolf
+  - first:
+      1: 100186
+    second: L_back_upLegTwist_grpWolf
+  - first:
+      1: 100188
+    second: L_back_upLegTwist_upVectorGrpWolf
+  - first:
+      1: 100190
+    second: L_backLeg_stretchMeasure_distWolf
+  - first:
+      1: 100192
+    second: L_backLeg_stretchMeasureEnd_locWolf
+  - first:
+      1: 100194
+    second: L_backLeg_stretchMeasureStart_locWolf
+  - first:
+      1: 100196
+    second: L_backLeg_twistCtrlWolf
+  - first:
+      1: 100198
+    second: L_ear_jnt1Wolf
+  - first:
+      1: 100200
+    second: L_ear_jnt2Wolf
+  - first:
+      1: 100202
+    second: L_ear_jnt3Wolf
+  - first:
+      1: 100204
+    second: L_ear_jnt4Wolf
+  - first:
+      1: 100206
+    second: L_ear_jnt5Wolf
+  - first:
+      1: 100208
+    second: L_front_coffin_IKhandleWolf
+  - first:
+      1: 100210
+    second: L_front_coffin_jntWolf
+  - first:
+      1: 100212
+    second: L_front_coffinEnd_jntWolf
+  - first:
+      1: 100214
+    second: L_front_fetlock_IKhandleWolf
+  - first:
+      1: 100216
+    second: L_front_fetlock_jntWolf
+  - first:
+      1: 100218
+    second: L_front_fetlockLift_grpWolf
+  - first:
+      1: 100220
+    second: L_front_foot_ctrlWolf
+  - first:
+      1: 100222
+    second: L_front_foot_jntWolf
+  - first:
+      1: 100224
+    second: L_front_footTwist1_jntWolf
+  - first:
+      1: 100226
+    second: L_front_footTwist2_jntWolf
+  - first:
+      1: 100228
+    second: L_front_footTwist_grpWolf
+  - first:
+      1: 100230
+    second: L_front_leg_controls_grpWolf
+  - first:
+      1: 100232
+    second: L_front_leg_IKhandleWolf
+  - first:
+      1: 100234
+    second: L_front_lowLeg_jntWolf
+  - first:
+      1: 100236
+    second: L_front_lowLegTwist1_jntWolf
+  - first:
+      1: 100238
+    second: L_front_lowLegTwist2_jntWolf
+  - first:
+      1: 100240
+    second: L_front_pastern_IKhandleWolf
+  - first:
+      1: 100242
+    second: L_front_pastern_jntWolf
+  - first:
+      1: 100244
+    second: L_front_pasternLift_grpWolf
+  - first:
+      1: 100246
+    second: L_front_poleVectorConstGrpWolf
+  - first:
+      1: 100248
+    second: L_front_poleVectorGrpWolf
+  - first:
+      1: 100250
+    second: L_front_poleVectorWolf
+  - first:
+      1: 100252
+    second: L_front_scapula_IKhandleWolf
+  - first:
+      1: 100254
+    second: L_front_scapulaConst_grp1Wolf
+  - first:
+      1: 100256
+    second: L_front_scapulaConst_grp2Wolf
+  - first:
+      1: 100258
+    second: L_front_scapulaHelperWolf
+  - first:
+      1: 100260
+    second: L_front_scapulaIKconst_grpWolf
+  - first:
+      1: 100262
+    second: L_front_shoulder_ctrlGrpWolf
+  - first:
+      1: 100264
+    second: L_front_shoulder_ctrlWolf
+  - first:
+      1: 100266
+    second: L_front_shoulder_IKhandleWolf
+  - first:
+      1: 100268
+    second: L_front_shoulder_jntWolf
+  - first:
+      1: 100270
+    second: L_front_tipToe_grpWolf
+  - first:
+      1: 100272
+    second: L_front_tipTwist_grpWolf
+  - first:
+      1: 100274
+    second: L_front_toeWiggle_grpWolf
+  - first:
+      1: 100276
+    second: L_front_upLeg_jntWolf
+  - first:
+      1: 100278
+    second: L_front_upLegTwist_aimConstGrpWolf
+  - first:
+      1: 100280
+    second: L_front_upLegTwist_grpWolf
+  - first:
+      1: 100282
+    second: L_front_upLegTwist_upVectorCtrlWolf
+  - first:
+      1: 100284
+    second: L_front_upLegTwist_upVectorGrpWolf
+  - first:
+      1: 100286
+    second: L_frontLeg_stretchMeasure_distWolf
+  - first:
+      1: 100288
+    second: L_frontLeg_stretchMeasureEnd_locWolf
+  - first:
+      1: 100290
+    second: L_frontLeg_stretchMeasureStart_locWolf
+  - first:
+      1: 100292
+    second: L_hip_jnt1Wolf
+  - first:
+      1: 100294
+    second: L_hip_jnt2Wolf
+  - first:
+      1: 100296
+    second: L_scapula_jntWolf
+  - first:
+      1: 100298
+    second: L_scapulaEnd_jntWolf
+  - first:
+      1: 100300
+    second: L_scapulaRoot_jntWolf
+  - first:
+      1: 100302
+    second: main_ctrlWolf
+  - first:
+      1: 100304
+    second: neck_const_grpWolf
+  - first:
+      1: 100306
+    second: neck_constGrp1Wolf
+  - first:
+      1: 100308
+    second: neck_constGrp2Wolf
+  - first:
+      1: 100310
+    second: neck_ctrl_grpWolf
+  - first:
+      1: 100312
+    second: neck_ctrlWolf
+  - first:
+      1: 100314
+    second: neck_curveWolf
+  - first:
+      1: 100316
+    second: neck_IK_bind_jnt1Wolf
+  - first:
+      1: 100318
+    second: neck_IK_bind_jnt2Wolf
+  - first:
+      1: 100320
+    second: neck_IK_bind_jnt3Wolf
+  - first:
+      1: 100322
+    second: neck_IKhandleWolf
+  - first:
+      1: 100324
+    second: neck_jnt1Wolf
+  - first:
+      1: 100326
+    second: neck_jnt2Wolf
+  - first:
+      1: 100328
+    second: neck_jnt3Wolf
+  - first:
+      1: 100330
+    second: neck_jnt4Wolf
+  - first:
+      1: 100332
+    second: neck_jnt5Wolf
+  - first:
+      1: 100334
+    second: neck_worldSpace_grpWolf
+  - first:
+      1: 100336
+    second: neckJoints_grpWolf
+  - first:
+      1: 100338
+    second: pelvis_ctrl_grpWolf
+  - first:
+      1: 100340
+    second: pelvis_ctrlWolf
+  - first:
+      1: 100342
+    second: R_autoHeelEnd_locWolf
+  - first:
+      1: 100344
+    second: R_autoHeelMeasure_distWolf
+  - first:
+      1: 100346
+    second: R_autoHeelStart_locWolf
+  - first:
+      1: 100348
+    second: R_back_autoHeel_grpWolf
+  - first:
+      1: 100350
+    second: R_back_coffin_IKhandleWolf
+  - first:
+      1: 100352
+    second: R_back_coffinEnd_jntWolf
+  - first:
+      1: 100354
+    second: R_back_controlLeg_IKhandleWolf
+  - first:
+      1: 100356
+    second: R_back_fetlock_IKhandleWolf
+  - first:
+      1: 100358
+    second: R_back_fetlock_jntWolf
+  - first:
+      1: 100360
+    second: R_back_fetlockLift_grpWolf
+  - first:
+      1: 100362
+    second: R_back_fetlockLift_pointGrpWolf
+  - first:
+      1: 100364
+    second: R_back_foot_ctrlJntWolf
+  - first:
+      1: 100366
+    second: R_back_foot_ctrlWolf
+  - first:
+      1: 100368
+    second: R_back_foot_jntWolf
+  - first:
+      1: 100370
+    second: R_back_footTwist_grpWolf
+  - first:
+      1: 100372
+    second: R_back_heelLift_constGrpWolf
+  - first:
+      1: 100374
+    second: R_back_heelLift_grpWolf
+  - first:
+      1: 100376
+    second: R_back_heelLift_pointGrpWolf
+  - first:
+      1: 100378
+    second: R_back_hip_ctrlGrpWolf
+  - first:
+      1: 100380
+    second: R_back_hip_ctrlWolf
+  - first:
+      1: 100382
+    second: R_back_hip_IKhandleWolf
+  - first:
+      1: 100384
+    second: R_back_hipShift_ctrlWolf
+  - first:
+      1: 100386
+    second: R_back_leg_controls_grpWolf
+  - first:
+      1: 100388
+    second: R_back_leg_IKhandleWolf
+  - first:
+      1: 100390
+    second: R_back_lowLeg_ctrlJntWolf
+  - first:
+      1: 100392
+    second: R_back_lowLeg_jntWolf
+  - first:
+      1: 100394
+    second: R_back_lowLegTwist1_jntWolf
+  - first:
+      1: 100396
+    second: R_back_lowLegTwist2_jntWolf
+  - first:
+      1: 100398
+    second: R_back_pastern_IKhandleWolf
+  - first:
+      1: 100400
+    second: R_back_pastern_jntWolf
+  - first:
+      1: 100402
+    second: R_back_poleVector_rotGrpWolf
+  - first:
+      1: 100404
+    second: R_back_poleVectorConstGrpWolf
+  - first:
+      1: 100406
+    second: R_back_poleVectorWolf
+  - first:
+      1: 100408
+    second: R_back_tipToe_grpWolf
+  - first:
+      1: 100410
+    second: R_back_tipTwist_grpWolf
+  - first:
+      1: 100412
+    second: R_back_toe_ctrlJntWolf
+  - first:
+      1: 100414
+    second: R_back_toeWiggle_grpWolf
+  - first:
+      1: 100416
+    second: R_back_upLeg_ctrlJntWolf
+  - first:
+      1: 100418
+    second: R_back_upLeg_jntWolf
+  - first:
+      1: 100420
+    second: R_back_upLegTwist1_jntWolf
+  - first:
+      1: 100422
+    second: R_back_upLegTwist2_jntWolf
+  - first:
+      1: 100424
+    second: R_back_upLegTwist_aimConstGrpWolf
+  - first:
+      1: 100426
+    second: R_back_upLegTwist_grpWolf
+  - first:
+      1: 100428
+    second: R_back_upLegTwist_upVectorGrpWolf
+  - first:
+      1: 100430
+    second: R_backLeg_stretchMeasure_distWolf
+  - first:
+      1: 100432
+    second: R_backLeg_stretchMeasureEnd_locWolf
+  - first:
+      1: 100434
+    second: R_backLeg_stretchMeasureStart_locWolf
+  - first:
+      1: 100436
+    second: R_backLeg_twistCtrlWolf
+  - first:
+      1: 100438
+    second: R_ear_jnt1Wolf
+  - first:
+      1: 100440
+    second: R_ear_jnt2Wolf
+  - first:
+      1: 100442
+    second: R_ear_jnt3Wolf
+  - first:
+      1: 100444
+    second: R_ear_jnt4Wolf
+  - first:
+      1: 100446
+    second: R_ear_jnt5Wolf
+  - first:
+      1: 100448
+    second: R_front_coffin_IKhandleWolf
+  - first:
+      1: 100450
+    second: R_front_coffin_jntWolf
+  - first:
+      1: 100452
+    second: R_front_coffinEnd_jntWolf
+  - first:
+      1: 100454
+    second: R_front_fetlock_IKhandleWolf
+  - first:
+      1: 100456
+    second: R_front_fetlock_jntWolf
+  - first:
+      1: 100458
+    second: R_front_fetlockLift_grpWolf
+  - first:
+      1: 100460
+    second: R_front_foot_ctrlWolf
+  - first:
+      1: 100462
+    second: R_front_foot_jntWolf
+  - first:
+      1: 100464
+    second: R_front_footTwist1_jntWolf
+  - first:
+      1: 100466
+    second: R_front_footTwist2_jntWolf
+  - first:
+      1: 100468
+    second: R_front_footTwist_grpWolf
+  - first:
+      1: 100470
+    second: R_front_leg_controls_grpWolf
+  - first:
+      1: 100472
+    second: R_front_leg_IKhandleWolf
+  - first:
+      1: 100474
+    second: R_front_lowLeg_jntWolf
+  - first:
+      1: 100476
+    second: R_front_lowLegTwist1_jntWolf
+  - first:
+      1: 100478
+    second: R_front_lowLegTwist2_jntWolf
+  - first:
+      1: 100480
+    second: R_front_pastern_IKhandleWolf
+  - first:
+      1: 100482
+    second: R_front_pastern_jntWolf
+  - first:
+      1: 100484
+    second: R_front_pasternLift_grpWolf
+  - first:
+      1: 100486
+    second: R_front_poleVectorConstGrpWolf
+  - first:
+      1: 100488
+    second: R_front_poleVectorGrpWolf
+  - first:
+      1: 100490
+    second: R_front_poleVectorWolf
+  - first:
+      1: 100492
+    second: R_front_scapula_IKhandleWolf
+  - first:
+      1: 100494
+    second: R_front_scapulaConst_grp1Wolf
+  - first:
+      1: 100496
+    second: R_front_scapulaConst_grp2Wolf
+  - first:
+      1: 100498
+    second: R_front_scapulaHelperWolf
+  - first:
+      1: 100500
+    second: R_front_scapulaIKconst_grpWolf
+  - first:
+      1: 100502
+    second: R_front_shoulder_ctrlGrpWolf
+  - first:
+      1: 100504
+    second: R_front_shoulder_ctrlWolf
+  - first:
+      1: 100506
+    second: R_front_shoulder_IKhandleWolf
+  - first:
+      1: 100508
+    second: R_front_shoulder_jntWolf
+  - first:
+      1: 100510
+    second: R_front_tipToe_grpWolf
+  - first:
+      1: 100512
+    second: R_front_tipTwist_grpWolf
+  - first:
+      1: 100514
+    second: R_front_toeWiggle_grpWolf
+  - first:
+      1: 100516
+    second: R_front_upLeg_jntWolf
+  - first:
+      1: 100518
+    second: R_front_upLegTwist_aimConstGrpWolf
+  - first:
+      1: 100520
+    second: R_front_upLegTwist_grpWolf
+  - first:
+      1: 100522
+    second: R_front_upLegTwist_upVectorCtrlWolf
+  - first:
+      1: 100524
+    second: R_front_upLegTwist_upVectorGrpWolf
+  - first:
+      1: 100526
+    second: R_frontLeg_stretchMeasure_distWolf
+  - first:
+      1: 100528
+    second: R_frontLeg_stretchMeasureEnd_locWolf
+  - first:
+      1: 100530
+    second: R_frontLeg_stretchMeasureStart_locWolf
+  - first:
+      1: 100532
+    second: R_hip_jnt1Wolf
+  - first:
+      1: 100534
+    second: R_hip_jnt2Wolf
+  - first:
+      1: 100536
+    second: R_scapula_jntWolf
+  - first:
+      1: 100538
+    second: R_scapulaEnd_jntWolf
+  - first:
+      1: 100540
+    second: R_scapulaRoot_jntWolf
+  - first:
+      1: 100542
+    second: root_jntWolf
+  - first:
+      1: 100544
+    second: shoulder_ctrl_grpWolf
+  - first:
+      1: 100546
+    second: shoulder_ctrlWolf
+  - first:
+      1: 100548
+    second: spine1_jntWolf
+  - first:
+      1: 100550
+    second: spine2_jntWolf
+  - first:
+      1: 100552
+    second: spine3_jntWolf
+  - first:
+      1: 100554
+    second: spine4_jntWolf
+  - first:
+      1: 100556
+    second: spine5_jntWolf
+  - first:
+      1: 100558
+    second: spine6_jntWolf
+  - first:
+      1: 100560
+    second: spine7_jntWolf
+  - first:
+      1: 100562
+    second: spine_controls_grpWolf
+  - first:
+      1: 100564
+    second: spine_curveWolf
+  - first:
+      1: 100566
+    second: spine_IK_bind_jnt1Wolf
+  - first:
+      1: 100568
+    second: spine_IK_bind_jnt2Wolf
+  - first:
+      1: 100570
+    second: spine_IK_bind_jnt3Wolf
+  - first:
+      1: 100572
+    second: spine_IKhandleWolf
+  - first:
+      1: 100574
+    second: spineJoints_grpWolf
+  - first:
+      1: 100576
+    second: Tail
+  - first:
+      1: 100578
+    second: Tail_1
+  - first:
+      1: 100580
+    second: Tail_2
+  - first:
+      1: 100582
+    second: Tail_3
+  - first:
+      1: 100584
+    second: Tail_4
+  - first:
+      1: 100586
+    second: Tail_5
+  - first:
+      1: 100588
+    second: tail_constGrpWolf
+  - first:
+      1: 100590
+    second: tail_FollowGrpWolf
+  - first:
+      1: 100592
+    second: tail_pelvisSpace_grpWolf
+  - first:
+      1: 100594
+    second: tail_worldSpace_grpWolf
+  - first:
+      1: 100596
+    second: torso_constGrp1Wolf
+  - first:
+      1: 100598
+    second: torso_constGrp2Wolf
+  - first:
+      1: 100600
+    second: torso_ctrl_grpWolf
+  - first:
+      1: 100602
+    second: torso_ctrlWolf
+  - first:
+      1: 100604
+    second: wolf
+  - first:
+      1: 100606
+    second: //RootNode
+  - first:
+      4: 400000
+    second: animationControls_grpWolf
+  - first:
+      4: 400002
+    second: back_legJoints_const_grpWolf
+  - first:
+      4: 400004
+    second: body_ctrlWolf
+  - first:
+      4: 400006
+    second: character_grpWolf
+  - first:
+      4: 400008
+    second: characterScale_grpWolf
+  - first:
+      4: 400010
+    second: dontTouch_grpWolf
+  - first:
+      4: 400012
+    second: dontTouchJoints_grpWolf
+  - first:
+      4: 400014
+    second: ear_const_grpWolf
+  - first:
+      4: 400016
+    second: ear_ctrlWolf
+  - first:
+      4: 400018
+    second: earJoints_const_grpWolf
+  - first:
+      4: 400020
+    second: FK_head_jntWolf
+  - first:
+      4: 400022
+    second: FK_neck_jnt1Wolf
+  - first:
+      4: 400024
+    second: FK_neck_jnt2Wolf
+  - first:
+      4: 400026
+    second: FK_neck_jnt3Wolf
+  - first:
+      4: 400028
+    second: FK_neck_jnt4Wolf
+  - first:
+      4: 400030
+    second: FK_neck_jnt5Wolf
+  - first:
+      4: 400032
+    second: FK_spine_back1_jntWolf
+  - first:
+      4: 400034
+    second: FK_spine_back2_jntWolf
+  - first:
+      4: 400036
+    second: FK_spine_front1_jntWolf
+  - first:
+      4: 400038
+    second: FK_spine_front2_jntWolf
+  - first:
+      4: 400040
+    second: FK_spine_front3_jntWolf
+  - first:
+      4: 400042
+    second: FK_spine_joints_grpWolf
+  - first:
+      4: 400044
+    second: fkBack1_ctrl_grpWolf
+  - first:
+      4: 400046
+    second: fkBack1_ctrlWolf
+  - first:
+      4: 400048
+    second: fkBack2_ctrl_grpWolf
+  - first:
+      4: 400050
+    second: fkBack2_ctrlWolf
+  - first:
+      4: 400052
+    second: fkBack3_ctrl_grpWolf
+  - first:
+      4: 400054
+    second: fkBack3_ctrlWolf
+  - first:
+      4: 400056
+    second: fkNeck_grpWolf
+  - first:
+      4: 400058
+    second: front_legJoints_const_grpWolf
+  - first:
+      4: 400060
+    second: head_ctrl_grpWolf
+  - first:
+      4: 400062
+    second: head_ctrlWolf
+  - first:
+      4: 400064
+    second: head_jntWolf
+  - first:
+      4: 400066
+    second: head_shoulderSpace_grpWolf
+  - first:
+      4: 400068
+    second: head_worldSpace_grpWolf
+  - first:
+      4: 400070
+    second: headConst_grpWolf
+  - first:
+      4: 400072
+    second: headEnd_jntWolf
+  - first:
+      4: 400074
+    second: heightMeasure_distWolf
+  - first:
+      4: 400076
+    second: heightMeasureEnd_locWolf
+  - first:
+      4: 400078
+    second: heightMeasureStart_locWolf
+  - first:
+      4: 400080
+    second: IK_head_jntWolf
+  - first:
+      4: 400082
+    second: IK_neck_jnt1Wolf
+  - first:
+      4: 400084
+    second: IK_neck_jnt2Wolf
+  - first:
+      4: 400086
+    second: IK_neck_jnt3Wolf
+  - first:
+      4: 400088
+    second: IK_neck_jnt4Wolf
+  - first:
+      4: 400090
+    second: IK_neck_jnt5Wolf
+  - first:
+      4: 400092
+    second: ikNeck_grpWolf
+  - first:
+      4: 400094
+    second: ikNeckJoints_grpWolf
+  - first:
+      4: 400096
+    second: joint1
+  - first:
+      4: 400098
+    second: joint2
+  - first:
+      4: 400100
+    second: joint3
+  - first:
+      4: 400102
+    second: L_autoHeelEnd_locWolf
+  - first:
+      4: 400104
+    second: L_autoHeelMeasure_distWolf
+  - first:
+      4: 400106
+    second: L_autoHeelStart_locWolf
+  - first:
+      4: 400108
+    second: L_back_autoHeel_grpWolf
+  - first:
+      4: 400110
+    second: L_back_coffin_IKhandleWolf
+  - first:
+      4: 400112
+    second: L_back_coffinEnd_jntWolf
+  - first:
+      4: 400114
+    second: L_back_controlLeg_IKhandleWolf
+  - first:
+      4: 400116
+    second: L_back_fetlock_IKhandleWolf
+  - first:
+      4: 400118
+    second: L_back_fetlock_jntWolf
+  - first:
+      4: 400120
+    second: L_back_fetlockLift_grpWolf
+  - first:
+      4: 400122
+    second: L_back_fetlockLift_pointGrpWolf
+  - first:
+      4: 400124
+    second: L_back_foot_ctrlJntWolf
+  - first:
+      4: 400126
+    second: L_back_foot_ctrlWolf
+  - first:
+      4: 400128
+    second: L_back_foot_jntWolf
+  - first:
+      4: 400130
+    second: L_back_footTwist_grpWolf
+  - first:
+      4: 400132
+    second: L_back_heelLift_constGrpWolf
+  - first:
+      4: 400134
+    second: L_back_heelLift_grpWolf
+  - first:
+      4: 400136
+    second: L_back_heelLift_pointGrpWolf
+  - first:
+      4: 400138
+    second: L_back_hip_ctrlGrpWolf
+  - first:
+      4: 400140
+    second: L_back_hip_ctrlWolf
+  - first:
+      4: 400142
+    second: L_back_hip_IKhandleWolf
+  - first:
+      4: 400144
+    second: L_back_hipShift_ctrlWolf
+  - first:
+      4: 400146
+    second: L_back_leg_controls_grpWolf
+  - first:
+      4: 400148
+    second: L_back_leg_IKhandleWolf
+  - first:
+      4: 400150
+    second: L_back_lowLeg_ctrlJntWolf
+  - first:
+      4: 400152
+    second: L_back_lowLeg_jntWolf
+  - first:
+      4: 400154
+    second: L_back_lowLegTwist1_jntWolf
+  - first:
+      4: 400156
+    second: L_back_lowLegTwist2_jntWolf
+  - first:
+      4: 400158
+    second: L_back_pastern_IKhandleWolf
+  - first:
+      4: 400160
+    second: L_back_pastern_jntWolf
+  - first:
+      4: 400162
+    second: L_back_poleVector_rotGrpWolf
+  - first:
+      4: 400164
+    second: L_back_poleVectorConstGrpWolf
+  - first:
+      4: 400166
+    second: L_back_poleVectorWolf
+  - first:
+      4: 400168
+    second: L_back_tipToe_grpWolf
+  - first:
+      4: 400170
+    second: L_back_tipTwist_grpWolf
+  - first:
+      4: 400172
+    second: L_back_toe_ctrlJntWolf
+  - first:
+      4: 400174
+    second: L_back_toeWiggle_grpWolf
+  - first:
+      4: 400176
+    second: L_back_upLeg_ctrlJntWolf
+  - first:
+      4: 400178
+    second: L_back_upLeg_jntWolf
+  - first:
+      4: 400180
+    second: L_back_upLegTwist1_jntWolf
+  - first:
+      4: 400182
+    second: L_back_upLegTwist2_jntWolf
+  - first:
+      4: 400184
+    second: L_back_upLegTwist_aimConstGrpWolf
+  - first:
+      4: 400186
+    second: L_back_upLegTwist_grpWolf
+  - first:
+      4: 400188
+    second: L_back_upLegTwist_upVectorGrpWolf
+  - first:
+      4: 400190
+    second: L_backLeg_stretchMeasure_distWolf
+  - first:
+      4: 400192
+    second: L_backLeg_stretchMeasureEnd_locWolf
+  - first:
+      4: 400194
+    second: L_backLeg_stretchMeasureStart_locWolf
+  - first:
+      4: 400196
+    second: L_backLeg_twistCtrlWolf
+  - first:
+      4: 400198
+    second: L_ear_jnt1Wolf
+  - first:
+      4: 400200
+    second: L_ear_jnt2Wolf
+  - first:
+      4: 400202
+    second: L_ear_jnt3Wolf
+  - first:
+      4: 400204
+    second: L_ear_jnt4Wolf
+  - first:
+      4: 400206
+    second: L_ear_jnt5Wolf
+  - first:
+      4: 400208
+    second: L_front_coffin_IKhandleWolf
+  - first:
+      4: 400210
+    second: L_front_coffin_jntWolf
+  - first:
+      4: 400212
+    second: L_front_coffinEnd_jntWolf
+  - first:
+      4: 400214
+    second: L_front_fetlock_IKhandleWolf
+  - first:
+      4: 400216
+    second: L_front_fetlock_jntWolf
+  - first:
+      4: 400218
+    second: L_front_fetlockLift_grpWolf
+  - first:
+      4: 400220
+    second: L_front_foot_ctrlWolf
+  - first:
+      4: 400222
+    second: L_front_foot_jntWolf
+  - first:
+      4: 400224
+    second: L_front_footTwist1_jntWolf
+  - first:
+      4: 400226
+    second: L_front_footTwist2_jntWolf
+  - first:
+      4: 400228
+    second: L_front_footTwist_grpWolf
+  - first:
+      4: 400230
+    second: L_front_leg_controls_grpWolf
+  - first:
+      4: 400232
+    second: L_front_leg_IKhandleWolf
+  - first:
+      4: 400234
+    second: L_front_lowLeg_jntWolf
+  - first:
+      4: 400236
+    second: L_front_lowLegTwist1_jntWolf
+  - first:
+      4: 400238
+    second: L_front_lowLegTwist2_jntWolf
+  - first:
+      4: 400240
+    second: L_front_pastern_IKhandleWolf
+  - first:
+      4: 400242
+    second: L_front_pastern_jntWolf
+  - first:
+      4: 400244
+    second: L_front_pasternLift_grpWolf
+  - first:
+      4: 400246
+    second: L_front_poleVectorConstGrpWolf
+  - first:
+      4: 400248
+    second: L_front_poleVectorGrpWolf
+  - first:
+      4: 400250
+    second: L_front_poleVectorWolf
+  - first:
+      4: 400252
+    second: L_front_scapula_IKhandleWolf
+  - first:
+      4: 400254
+    second: L_front_scapulaConst_grp1Wolf
+  - first:
+      4: 400256
+    second: L_front_scapulaConst_grp2Wolf
+  - first:
+      4: 400258
+    second: L_front_scapulaHelperWolf
+  - first:
+      4: 400260
+    second: L_front_scapulaIKconst_grpWolf
+  - first:
+      4: 400262
+    second: L_front_shoulder_ctrlGrpWolf
+  - first:
+      4: 400264
+    second: L_front_shoulder_ctrlWolf
+  - first:
+      4: 400266
+    second: L_front_shoulder_IKhandleWolf
+  - first:
+      4: 400268
+    second: L_front_shoulder_jntWolf
+  - first:
+      4: 400270
+    second: L_front_tipToe_grpWolf
+  - first:
+      4: 400272
+    second: L_front_tipTwist_grpWolf
+  - first:
+      4: 400274
+    second: L_front_toeWiggle_grpWolf
+  - first:
+      4: 400276
+    second: L_front_upLeg_jntWolf
+  - first:
+      4: 400278
+    second: L_front_upLegTwist_aimConstGrpWolf
+  - first:
+      4: 400280
+    second: L_front_upLegTwist_grpWolf
+  - first:
+      4: 400282
+    second: L_front_upLegTwist_upVectorCtrlWolf
+  - first:
+      4: 400284
+    second: L_front_upLegTwist_upVectorGrpWolf
+  - first:
+      4: 400286
+    second: L_frontLeg_stretchMeasure_distWolf
+  - first:
+      4: 400288
+    second: L_frontLeg_stretchMeasureEnd_locWolf
+  - first:
+      4: 400290
+    second: L_frontLeg_stretchMeasureStart_locWolf
+  - first:
+      4: 400292
+    second: L_hip_jnt1Wolf
+  - first:
+      4: 400294
+    second: L_hip_jnt2Wolf
+  - first:
+      4: 400296
+    second: L_scapula_jntWolf
+  - first:
+      4: 400298
+    second: L_scapulaEnd_jntWolf
+  - first:
+      4: 400300
+    second: L_scapulaRoot_jntWolf
+  - first:
+      4: 400302
+    second: main_ctrlWolf
+  - first:
+      4: 400304
+    second: neck_const_grpWolf
+  - first:
+      4: 400306
+    second: neck_constGrp1Wolf
+  - first:
+      4: 400308
+    second: neck_constGrp2Wolf
+  - first:
+      4: 400310
+    second: neck_ctrl_grpWolf
+  - first:
+      4: 400312
+    second: neck_ctrlWolf
+  - first:
+      4: 400314
+    second: neck_curveWolf
+  - first:
+      4: 400316
+    second: neck_IK_bind_jnt1Wolf
+  - first:
+      4: 400318
+    second: neck_IK_bind_jnt2Wolf
+  - first:
+      4: 400320
+    second: neck_IK_bind_jnt3Wolf
+  - first:
+      4: 400322
+    second: neck_IKhandleWolf
+  - first:
+      4: 400324
+    second: neck_jnt1Wolf
+  - first:
+      4: 400326
+    second: neck_jnt2Wolf
+  - first:
+      4: 400328
+    second: neck_jnt3Wolf
+  - first:
+      4: 400330
+    second: neck_jnt4Wolf
+  - first:
+      4: 400332
+    second: neck_jnt5Wolf
+  - first:
+      4: 400334
+    second: neck_worldSpace_grpWolf
+  - first:
+      4: 400336
+    second: neckJoints_grpWolf
+  - first:
+      4: 400338
+    second: pelvis_ctrl_grpWolf
+  - first:
+      4: 400340
+    second: pelvis_ctrlWolf
+  - first:
+      4: 400342
+    second: R_autoHeelEnd_locWolf
+  - first:
+      4: 400344
+    second: R_autoHeelMeasure_distWolf
+  - first:
+      4: 400346
+    second: R_autoHeelStart_locWolf
+  - first:
+      4: 400348
+    second: R_back_autoHeel_grpWolf
+  - first:
+      4: 400350
+    second: R_back_coffin_IKhandleWolf
+  - first:
+      4: 400352
+    second: R_back_coffinEnd_jntWolf
+  - first:
+      4: 400354
+    second: R_back_controlLeg_IKhandleWolf
+  - first:
+      4: 400356
+    second: R_back_fetlock_IKhandleWolf
+  - first:
+      4: 400358
+    second: R_back_fetlock_jntWolf
+  - first:
+      4: 400360
+    second: R_back_fetlockLift_grpWolf
+  - first:
+      4: 400362
+    second: R_back_fetlockLift_pointGrpWolf
+  - first:
+      4: 400364
+    second: R_back_foot_ctrlJntWolf
+  - first:
+      4: 400366
+    second: R_back_foot_ctrlWolf
+  - first:
+      4: 400368
+    second: R_back_foot_jntWolf
+  - first:
+      4: 400370
+    second: R_back_footTwist_grpWolf
+  - first:
+      4: 400372
+    second: R_back_heelLift_constGrpWolf
+  - first:
+      4: 400374
+    second: R_back_heelLift_grpWolf
+  - first:
+      4: 400376
+    second: R_back_heelLift_pointGrpWolf
+  - first:
+      4: 400378
+    second: R_back_hip_ctrlGrpWolf
+  - first:
+      4: 400380
+    second: R_back_hip_ctrlWolf
+  - first:
+      4: 400382
+    second: R_back_hip_IKhandleWolf
+  - first:
+      4: 400384
+    second: R_back_hipShift_ctrlWolf
+  - first:
+      4: 400386
+    second: R_back_leg_controls_grpWolf
+  - first:
+      4: 400388
+    second: R_back_leg_IKhandleWolf
+  - first:
+      4: 400390
+    second: R_back_lowLeg_ctrlJntWolf
+  - first:
+      4: 400392
+    second: R_back_lowLeg_jntWolf
+  - first:
+      4: 400394
+    second: R_back_lowLegTwist1_jntWolf
+  - first:
+      4: 400396
+    second: R_back_lowLegTwist2_jntWolf
+  - first:
+      4: 400398
+    second: R_back_pastern_IKhandleWolf
+  - first:
+      4: 400400
+    second: R_back_pastern_jntWolf
+  - first:
+      4: 400402
+    second: R_back_poleVector_rotGrpWolf
+  - first:
+      4: 400404
+    second: R_back_poleVectorConstGrpWolf
+  - first:
+      4: 400406
+    second: R_back_poleVectorWolf
+  - first:
+      4: 400408
+    second: R_back_tipToe_grpWolf
+  - first:
+      4: 400410
+    second: R_back_tipTwist_grpWolf
+  - first:
+      4: 400412
+    second: R_back_toe_ctrlJntWolf
+  - first:
+      4: 400414
+    second: R_back_toeWiggle_grpWolf
+  - first:
+      4: 400416
+    second: R_back_upLeg_ctrlJntWolf
+  - first:
+      4: 400418
+    second: R_back_upLeg_jntWolf
+  - first:
+      4: 400420
+    second: R_back_upLegTwist1_jntWolf
+  - first:
+      4: 400422
+    second: R_back_upLegTwist2_jntWolf
+  - first:
+      4: 400424
+    second: R_back_upLegTwist_aimConstGrpWolf
+  - first:
+      4: 400426
+    second: R_back_upLegTwist_grpWolf
+  - first:
+      4: 400428
+    second: R_back_upLegTwist_upVectorGrpWolf
+  - first:
+      4: 400430
+    second: R_backLeg_stretchMeasure_distWolf
+  - first:
+      4: 400432
+    second: R_backLeg_stretchMeasureEnd_locWolf
+  - first:
+      4: 400434
+    second: R_backLeg_stretchMeasureStart_locWolf
+  - first:
+      4: 400436
+    second: R_backLeg_twistCtrlWolf
+  - first:
+      4: 400438
+    second: R_ear_jnt1Wolf
+  - first:
+      4: 400440
+    second: R_ear_jnt2Wolf
+  - first:
+      4: 400442
+    second: R_ear_jnt3Wolf
+  - first:
+      4: 400444
+    second: R_ear_jnt4Wolf
+  - first:
+      4: 400446
+    second: R_ear_jnt5Wolf
+  - first:
+      4: 400448
+    second: R_front_coffin_IKhandleWolf
+  - first:
+      4: 400450
+    second: R_front_coffin_jntWolf
+  - first:
+      4: 400452
+    second: R_front_coffinEnd_jntWolf
+  - first:
+      4: 400454
+    second: R_front_fetlock_IKhandleWolf
+  - first:
+      4: 400456
+    second: R_front_fetlock_jntWolf
+  - first:
+      4: 400458
+    second: R_front_fetlockLift_grpWolf
+  - first:
+      4: 400460
+    second: R_front_foot_ctrlWolf
+  - first:
+      4: 400462
+    second: R_front_foot_jntWolf
+  - first:
+      4: 400464
+    second: R_front_footTwist1_jntWolf
+  - first:
+      4: 400466
+    second: R_front_footTwist2_jntWolf
+  - first:
+      4: 400468
+    second: R_front_footTwist_grpWolf
+  - first:
+      4: 400470
+    second: R_front_leg_controls_grpWolf
+  - first:
+      4: 400472
+    second: R_front_leg_IKhandleWolf
+  - first:
+      4: 400474
+    second: R_front_lowLeg_jntWolf
+  - first:
+      4: 400476
+    second: R_front_lowLegTwist1_jntWolf
+  - first:
+      4: 400478
+    second: R_front_lowLegTwist2_jntWolf
+  - first:
+      4: 400480
+    second: R_front_pastern_IKhandleWolf
+  - first:
+      4: 400482
+    second: R_front_pastern_jntWolf
+  - first:
+      4: 400484
+    second: R_front_pasternLift_grpWolf
+  - first:
+      4: 400486
+    second: R_front_poleVectorConstGrpWolf
+  - first:
+      4: 400488
+    second: R_front_poleVectorGrpWolf
+  - first:
+      4: 400490
+    second: R_front_poleVectorWolf
+  - first:
+      4: 400492
+    second: R_front_scapula_IKhandleWolf
+  - first:
+      4: 400494
+    second: R_front_scapulaConst_grp1Wolf
+  - first:
+      4: 400496
+    second: R_front_scapulaConst_grp2Wolf
+  - first:
+      4: 400498
+    second: R_front_scapulaHelperWolf
+  - first:
+      4: 400500
+    second: R_front_scapulaIKconst_grpWolf
+  - first:
+      4: 400502
+    second: R_front_shoulder_ctrlGrpWolf
+  - first:
+      4: 400504
+    second: R_front_shoulder_ctrlWolf
+  - first:
+      4: 400506
+    second: R_front_shoulder_IKhandleWolf
+  - first:
+      4: 400508
+    second: R_front_shoulder_jntWolf
+  - first:
+      4: 400510
+    second: R_front_tipToe_grpWolf
+  - first:
+      4: 400512
+    second: R_front_tipTwist_grpWolf
+  - first:
+      4: 400514
+    second: R_front_toeWiggle_grpWolf
+  - first:
+      4: 400516
+    second: R_front_upLeg_jntWolf
+  - first:
+      4: 400518
+    second: R_front_upLegTwist_aimConstGrpWolf
+  - first:
+      4: 400520
+    second: R_front_upLegTwist_grpWolf
+  - first:
+      4: 400522
+    second: R_front_upLegTwist_upVectorCtrlWolf
+  - first:
+      4: 400524
+    second: R_front_upLegTwist_upVectorGrpWolf
+  - first:
+      4: 400526
+    second: R_frontLeg_stretchMeasure_distWolf
+  - first:
+      4: 400528
+    second: R_frontLeg_stretchMeasureEnd_locWolf
+  - first:
+      4: 400530
+    second: R_frontLeg_stretchMeasureStart_locWolf
+  - first:
+      4: 400532
+    second: R_hip_jnt1Wolf
+  - first:
+      4: 400534
+    second: R_hip_jnt2Wolf
+  - first:
+      4: 400536
+    second: R_scapula_jntWolf
+  - first:
+      4: 400538
+    second: R_scapulaEnd_jntWolf
+  - first:
+      4: 400540
+    second: R_scapulaRoot_jntWolf
+  - first:
+      4: 400542
+    second: root_jntWolf
+  - first:
+      4: 400544
+    second: shoulder_ctrl_grpWolf
+  - first:
+      4: 400546
+    second: shoulder_ctrlWolf
+  - first:
+      4: 400548
+    second: spine1_jntWolf
+  - first:
+      4: 400550
+    second: spine2_jntWolf
+  - first:
+      4: 400552
+    second: spine3_jntWolf
+  - first:
+      4: 400554
+    second: spine4_jntWolf
+  - first:
+      4: 400556
+    second: spine5_jntWolf
+  - first:
+      4: 400558
+    second: spine6_jntWolf
+  - first:
+      4: 400560
+    second: spine7_jntWolf
+  - first:
+      4: 400562
+    second: spine_controls_grpWolf
+  - first:
+      4: 400564
+    second: spine_curveWolf
+  - first:
+      4: 400566
+    second: spine_IK_bind_jnt1Wolf
+  - first:
+      4: 400568
+    second: spine_IK_bind_jnt2Wolf
+  - first:
+      4: 400570
+    second: spine_IK_bind_jnt3Wolf
+  - first:
+      4: 400572
+    second: spine_IKhandleWolf
+  - first:
+      4: 400574
+    second: spineJoints_grpWolf
+  - first:
+      4: 400576
+    second: Tail
+  - first:
+      4: 400578
+    second: Tail_1
+  - first:
+      4: 400580
+    second: Tail_2
+  - first:
+      4: 400582
+    second: Tail_3
+  - first:
+      4: 400584
+    second: Tail_4
+  - first:
+      4: 400586
+    second: Tail_5
+  - first:
+      4: 400588
+    second: tail_constGrpWolf
+  - first:
+      4: 400590
+    second: tail_FollowGrpWolf
+  - first:
+      4: 400592
+    second: tail_pelvisSpace_grpWolf
+  - first:
+      4: 400594
+    second: tail_worldSpace_grpWolf
+  - first:
+      4: 400596
+    second: torso_constGrp1Wolf
+  - first:
+      4: 400598
+    second: torso_constGrp2Wolf
+  - first:
+      4: 400600
+    second: torso_ctrl_grpWolf
+  - first:
+      4: 400602
+    second: torso_ctrlWolf
+  - first:
+      4: 400604
+    second: wolf
+  - first:
+      4: 400606
+    second: //RootNode
+  - first:
+      43: 4300000
+    second: wolf
+  - first:
+      74: 7400000
+    second: Take 001
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: wolf
+  externalObjects: {}
+  materials:
+    materialImportMode: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'Head' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Wolf_0(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: wolf
+      parentName: Wolf_0(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 1.7112914e-15, y: 1, z: -0.000000021855694, w: 0.0000000754979}
+      scale: {x: 100.5467, y: 99.99999, z: 99.99999}
+    - name: character_grpWolf
+      parentName: Wolf_0(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: characterScale_grpWolf
+      parentName: character_grpWolf
+      position: {x: 0, y: 0.13497442, z: 0.29047894}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: animationControls_grpWolf
+      parentName: characterScale_grpWolf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_controls_grpWolf
+      parentName: animationControls_grpWolf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: body_ctrlWolf
+      parentName: spine_controls_grpWolf
+      position: {x: 4.192059e-17, y: 0.76690817, z: -0.097222224}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pelvis_ctrl_grpWolf
+      parentName: body_ctrlWolf
+      position: {x: -4.192059e-17, y: 0.0048309076, z: -0.11473429}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pelvis_ctrlWolf
+      parentName: pelvis_ctrl_grpWolf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: torso_constGrp1Wolf
+      parentName: pelvis_ctrlWolf
+      position: {x: 9.432133e-17, y: -0.0108695645, z: 0.2581522}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_IK_bind_jnt1Wolf
+      parentName: pelvis_ctrlWolf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: tail_pelvisSpace_grpWolf
+      parentName: pelvis_ctrlWolf
+      position: {x: -1.5777218e-32, y: 0.0054347822, z: -0.21195652}
+      rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Tail
+      parentName: pelvis_ctrlWolf
+      position: {x: -0, y: -0.016722644, z: -0.21209717}
+      rotation: {x: -0.008220493, y: -0.707059, z: 0.008220493, w: 0.707059}
+      scale: {x: 1.0000002, y: 1, z: 1.0000002}
+    - name: Tail_1
+      parentName: Tail
+      position: {x: -0.06956473, y: -1.6375789e-17, z: 1.5446473e-17}
+      rotation: {x: -0, y: -0, z: -0.011625532, w: 0.9999324}
+      scale: {x: 1.0000002, y: 1, z: 1.0000002}
+    - name: Tail_2
+      parentName: Tail_1
+      position: {x: -0.13666582, y: 3.5751275e-16, z: 3.0591257e-17}
+      rotation: {x: -0, y: -0, z: 9.3132246e-10, w: 1}
+      scale: {x: 1.0000002, y: 1, z: 1.0000002}
+    - name: Tail_3
+      parentName: Tail_2
+      position: {x: -0.099466845, y: 1.4210854e-16, z: 2.2264642e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000002, y: 1, z: 1.0000002}
+    - name: Tail_4
+      parentName: Tail_3
+      position: {x: -0.08086736, y: 4.2632563e-16, z: 1.8101336e-17}
+      rotation: {x: 4.6562976e-10, y: 5.4135594e-12, z: -0.026638236, w: 0.9996451}
+      scale: {x: 1.0000005, y: 1, z: 1.0000005}
+    - name: Tail_5
+      parentName: Tail_4
+      position: {x: -0.060736712, y: -1.5987211e-16, z: 1.3817353e-17}
+      rotation: {x: -0.01883608, y: 0.7068559, z: 0.01883608, w: 0.7068559}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: torso_ctrl_grpWolf
+      parentName: body_ctrlWolf
+      position: {x: 5.2400734e-17, y: -0.0060386136, z: 0.14341787}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: torso_ctrlWolf
+      parentName: torso_ctrl_grpWolf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_IK_bind_jnt2Wolf
+      parentName: torso_ctrlWolf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: shoulder_ctrl_grpWolf
+      parentName: body_ctrlWolf
+      position: {x: 1.4672207e-16, y: -0.016908212, z: 0.40157005}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: shoulder_ctrlWolf
+      parentName: shoulder_ctrl_grpWolf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: torso_constGrp2Wolf
+      parentName: shoulder_ctrlWolf
+      position: {x: -9.432133e-17, y: 0.0108695645, z: -0.2581522}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_IK_bind_jnt3Wolf
+      parentName: shoulder_ctrlWolf
+      position: {x: -0, y: 1.4210854e-16, z: -3.5527136e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head_shoulderSpace_grpWolf
+      parentName: shoulder_ctrlWolf
+      position: {x: -9.603036e-17, y: 0.25543478, z: 0.2826087}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: neck_constGrp1Wolf
+      parentName: shoulder_ctrlWolf
+      position: {x: -1.4233651e-16, y: 0.12771739, z: 0.14130434}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_front_scapulaConst_grp1Wolf
+      parentName: shoulder_ctrlWolf
+      position: {x: -0.09033122, y: -0.2771739, z: 0.03991223}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_front_scapulaConst_grp1Wolf
+      parentName: shoulder_ctrlWolf
+      position: {x: 0.0903312, y: -0.277174, z: 0.03991217}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: fkBack1_ctrl_grpWolf
+      parentName: body_ctrlWolf
+      position: {x: -1.0480147e-17, y: 0.0012077085, z: -0.028683577}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: fkBack1_ctrlWolf
+      parentName: fkBack1_ctrl_grpWolf
+      position: {x: 1.04801476e-17, y: -0.0012077295, z: 0.028683573}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: fkBack2_ctrl_grpWolf
+      parentName: body_ctrlWolf
+      position: {x: 1.4672209e-17, y: -0.0016908511, z: 0.04015701}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: fkBack2_ctrlWolf
+      parentName: fkBack2_ctrl_grpWolf
+      position: {x: -1.4672207e-17, y: 0.0016908211, z: -0.040157}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: fkBack3_ctrl_grpWolf
+      parentName: body_ctrlWolf
+      position: {x: 7.598107e-17, y: -0.008756052, z: 0.20795591}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: fkBack3_ctrlWolf
+      parentName: fkBack3_ctrl_grpWolf
+      position: {x: -1.908884e-17, y: 0.002199793, z: -0.05224508}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: neck_const_grpWolf
+      parentName: animationControls_grpWolf
+      position: {x: 1.8864265e-16, y: 0.75, z: 0.3043478}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ikNeck_grpWolf
+      parentName: neck_const_grpWolf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: neck_ctrl_grpWolf
+      parentName: ikNeck_grpWolf
+      position: {x: -1.4233651e-16, y: 0.12771739, z: 0.14130434}
+      rotation: {x: -0.35925362, y: 0, z: -0, w: 0.93324}
+      scale: {x: 1, y: 1, z: 1}
+    - name: neck_ctrlWolf
+      parentName: neck_ctrl_grpWolf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: neck_IK_bind_jnt2Wolf
+      parentName: neck_ctrlWolf
+      position: {x: 7.888609e-33, y: 0, z: 0}
+      rotation: {x: 0.35925362, y: 0, z: -0, w: 0.93324}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head_ctrl_grpWolf
+      parentName: ikNeck_grpWolf
+      position: {x: -9.603036e-17, y: 0.25543478, z: 0.2826087}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head_ctrlWolf
+      parentName: head_ctrl_grpWolf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: neck_IK_bind_jnt3Wolf
+      parentName: head_ctrlWolf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: headConst_grpWolf
+      parentName: head_ctrlWolf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.22495046, y: 0.67037106, z: 0.22495046, w: 0.67037106}
+      scale: {x: 1, y: 1, z: 1}
+    - name: neck_constGrp2Wolf
+      parentName: head_ctrlWolf
+      position: {x: -4.6306146e-17, y: -0.12771739, z: -0.14130434}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: neck_IK_bind_jnt1Wolf
+      parentName: ikNeck_grpWolf
+      position: {x: -1.8864265e-16, y: 4.2632563e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: fkNeck_grpWolf
+      parentName: neck_const_grpWolf
+      position: {x: -1.8864265e-16, y: -0.75, z: -0.3043478}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FK_neck_jnt1Wolf
+      parentName: fkNeck_grpWolf
+      position: {x: -0, y: 0.75, z: 0.3043478}
+      rotation: {x: -0.25403067, y: 0.6599003, z: -0.25403067, w: 0.6599003}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FK_neck_jnt2Wolf
+      parentName: FK_neck_jnt1Wolf
+      position: {x: -0.07618782, y: 7.105427e-17, z: -8.458547e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FK_neck_jnt3Wolf
+      parentName: FK_neck_jnt2Wolf
+      position: {x: -0.07618782, y: 1.4210854e-16, z: 3.5840896e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FK_neck_jnt4Wolf
+      parentName: FK_neck_jnt3Wolf
+      position: {x: -0.07618782, y: 0, z: 3.5840896e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FK_neck_jnt5Wolf
+      parentName: FK_neck_jnt4Wolf
+      position: {x: -0.07618782, y: -1.4210854e-16, z: 3.5840896e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FK_head_jntWolf
+      parentName: FK_neck_jnt5Wolf
+      position: {x: -0.07618782, y: 1.4210854e-16, z: 3.5840896e-17}
+      rotation: {x: 0, y: 0, z: 0.63747936, w: 0.77046746}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint1
+      parentName: FK_head_jntWolf
+      position: {x: -0.081582904, y: -0.06501255, z: -6.213574e-17}
+      rotation: {x: -0, y: -0, z: 0.40158963, w: 0.91581976}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: joint2
+      parentName: joint1
+      position: {x: -0.05525561, y: -4.440892e-18, z: -4.9303805e-34}
+      rotation: {x: -0.000000053240527, y: -0.000000026798496, z: -0.47959217, w: 0.8774916}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000004}
+    - name: joint3
+      parentName: joint2
+      position: {x: -0.16740045, y: -8.881784e-18, z: 1.56427e-17}
+      rotation: {x: -0.16589357, y: -0.6873713, z: -0.16589363, w: 0.6873714}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: tail_constGrpWolf
+      parentName: animationControls_grpWolf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: tail_FollowGrpWolf
+      parentName: tail_constGrpWolf
+      position: {x: -0, y: 0.7771739, z: -0.42391303}
+      rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_front_leg_controls_grpWolf
+      parentName: animationControls_grpWolf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_front_foot_ctrlWolf
+      parentName: L_front_leg_controls_grpWolf
+      position: {x: -0.09033122, y: 0.10869565, z: 0.30621657}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_front_tipToe_grpWolf
+      parentName: L_front_foot_ctrlWolf
+      position: {x: -0.0000000022339333, y: -0.10326087, z: 0.16229855}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_front_tipTwist_grpWolf
+      parentName: L_front_tipToe_grpWolf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_front_footTwist_grpWolf
+      parentName: L_front_tipTwist_grpWolf
+      position: {x: -0, y: 0.032608695, z: -0.11410904}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_front_pasternLift_grpWolf
+      parentName: L_front_footTwist_grpWolf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_front_fetlock_IKhandleWolf
+      parentName: L_front_pasternLift_grpWolf
+      position: {x: -1.7763568e-17, y: 0.027173912, z: -0.042754706}
+      rotation: {x: 0.33994696, y: 0.41422698, z: 0.5730759, w: 0.6200291}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_back_fetlockLift_pointGrpWolf
+      parentName: L_front_pasternLift_grpWolf
+      position: {x: -1.7763568e-17, y: 0.027173912, z: -0.042754706}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_front_toeWiggle_grpWolf
+      parentName: L_front_footTwist_grpWolf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_front_coffin_IKhandleWolf
+      parentName: L_front_toeWiggle_grpWolf
+      position: {x: -0, y: -0.032608695, z: 0.11410904}
+      rotation: {x: -0.0884616, y: 0.65024257, z: 0.27782118, w: 0.70155156}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_front_pastern_IKhandleWolf
+      parentName: L_front_footTwist_grpWolf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.039709806, y: 0.6171299, z: 0.34518203, w: 0.7059909}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_front_fetlockLift_grpWolf
+      parentName: L_front_foot_ctrlWolf
+      position: {x: -0.0000000022339333, y: -0.043478258, z: 0.005434782}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_front_leg_IKhandleWolf
+      parentName: L_front_fetlockLift_grpWolf
+      position: {x: -1.7763568e-17, y: 0.043478258, z: -0.0054347822}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_frontLeg_stretchMeasureEnd_locWolf
+      parentName: L_front_fetlockLift_grpWolf
+      position: {x: -1.7763568e-17, y: 0.043478258, z: -0.0054347822}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_front_shoulder_ctrlGrpWolf
+      parentName: L_front_leg_controls_grpWolf
+      position: {x: -3.1554436e-32, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_front_shoulder_ctrlWolf
+      parentName: L_front_shoulder_ctrlGrpWolf
+      position: {x: -0.12608871, y: 0.47282606, z: 0.34426007}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_front_scapulaConst_grp2Wolf
+      parentName: L_front_shoulder_ctrlWolf
+      position: {x: 0.03575749, y: -0.0000000066342563, z: 0.000000003494793}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_front_shoulder_IKhandleWolf
+      parentName: L_front_shoulder_ctrlWolf
+      position: {x: 0.03575749, y: -0.0000000066342563, z: 0.000000003494793}
+      rotation: {x: 0.49445722, y: 0.1604166, z: 0.68867016, w: 0.5054821}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_frontLeg_stretchMeasureStart_locWolf
+      parentName: L_front_shoulder_ctrlWolf
+      position: {x: 0.03575749, y: -0.0000000066342563, z: 0.000000003494793}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_front_scapulaIKconst_grpWolf
+      parentName: L_front_leg_controls_grpWolf
+      position: {x: -0.09033122, y: 0.47282606, z: 0.34426007}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_front_scapula_IKhandleWolf
+      parentName: L_front_scapulaIKconst_grpWolf
+      position: {x: -0, y: -1.4210854e-16, z: 7.105427e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_front_poleVectorConstGrpWolf
+      parentName: L_front_leg_controls_grpWolf
+      position: {x: -0.09033122, y: 0.10869565, z: 0.30621657}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_front_poleVectorGrpWolf
+      parentName: L_front_poleVectorConstGrpWolf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_front_poleVectorWolf
+      parentName: L_front_poleVectorGrpWolf
+      position: {x: -0.19999999, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_front_leg_controls_grpWolf
+      parentName: animationControls_grpWolf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_front_foot_ctrlWolf
+      parentName: R_front_leg_controls_grpWolf
+      position: {x: 0.0903312, y: 0.108696, z: 0.30621698}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_front_tipToe_grpWolf
+      parentName: R_front_foot_ctrlWolf
+      position: {x: 0.0000000015533446, y: -0.10326122, z: 0.16229801}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_front_tipTwist_grpWolf
+      parentName: R_front_tipToe_grpWolf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_front_footTwist_grpWolf
+      parentName: R_front_tipTwist_grpWolf
+      position: {x: -0, y: 0.032608718, z: -0.114109}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_front_pasternLift_grpWolf
+      parentName: R_front_footTwist_grpWolf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_front_fetlock_IKhandleWolf
+      parentName: R_front_pasternLift_grpWolf
+      position: {x: -1.7763568e-17, y: 0.0271739, z: -0.042754997}
+      rotation: {x: 0.6200291, y: -0.5730759, z: 0.41422698, w: -0.33994696}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_back_fetlockLift_pointGrpWolf
+      parentName: R_front_pasternLift_grpWolf
+      position: {x: -1.7763568e-17, y: 0.0271739, z: -0.042754997}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_front_toeWiggle_grpWolf
+      parentName: R_front_footTwist_grpWolf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_front_coffin_IKhandleWolf
+      parentName: R_front_toeWiggle_grpWolf
+      position: {x: -0, y: -0.032608718, z: 0.114109}
+      rotation: {x: 0.70155156, y: -0.27782118, z: 0.65024257, w: 0.0884616}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_front_pastern_IKhandleWolf
+      parentName: R_front_footTwist_grpWolf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7059909, y: -0.34518203, z: 0.6171299, w: -0.039709806}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_front_fetlockLift_grpWolf
+      parentName: R_front_foot_ctrlWolf
+      position: {x: 0.0000000015533446, y: -0.043478597, z: 0.005434001}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_front_leg_IKhandleWolf
+      parentName: R_front_fetlockLift_grpWolf
+      position: {x: 3.5527136e-17, y: 0.043478597, z: -0.005434}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_frontLeg_stretchMeasureEnd_locWolf
+      parentName: R_front_fetlockLift_grpWolf
+      position: {x: 3.5527136e-17, y: 0.043478597, z: -0.005434}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_front_shoulder_ctrlGrpWolf
+      parentName: R_front_leg_controls_grpWolf
+      position: {x: -3.1554436e-32, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_front_shoulder_ctrlWolf
+      parentName: R_front_shoulder_ctrlGrpWolf
+      position: {x: 0.12608872, y: 0.472826, z: 0.34425998}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_front_scapulaConst_grp2Wolf
+      parentName: R_front_shoulder_ctrlWolf
+      position: {x: -0.035757523, y: 0.0000000040283203, z: -0.000000013122559}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_front_shoulder_IKhandleWolf
+      parentName: R_front_shoulder_ctrlWolf
+      position: {x: -0.035757523, y: 0.0000000040283203, z: -0.000000013122559}
+      rotation: {x: -0.5054821, y: 0.68867016, z: -0.1604166, w: 0.49445722}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_frontLeg_stretchMeasureStart_locWolf
+      parentName: R_front_shoulder_ctrlWolf
+      position: {x: -0.035757523, y: 0.0000000040283203, z: -0.000000013122559}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_front_scapulaIKconst_grpWolf
+      parentName: R_front_leg_controls_grpWolf
+      position: {x: 0.0903312, y: 0.472826, z: 0.34425998}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_front_scapula_IKhandleWolf
+      parentName: R_front_scapulaIKconst_grpWolf
+      position: {x: -0, y: 2.1316282e-16, z: 7.105427e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_front_poleVectorConstGrpWolf
+      parentName: R_front_leg_controls_grpWolf
+      position: {x: 0.0903312, y: 0.108696, z: 0.30621698}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_front_poleVectorGrpWolf
+      parentName: R_front_poleVectorConstGrpWolf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_front_poleVectorWolf
+      parentName: R_front_poleVectorGrpWolf
+      position: {x: -0.19999999, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_back_leg_controls_grpWolf
+      parentName: animationControls_grpWolf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_back_foot_ctrlWolf
+      parentName: L_back_leg_controls_grpWolf
+      position: {x: -0.09940887, y: 0.0923913, z: -0.40545878}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_back_tipToe_grpWolf
+      parentName: L_back_foot_ctrlWolf
+      position: {x: 0.0000000042776165, y: -0.086956516, z: 0.076086946}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_back_tipTwist_grpWolf
+      parentName: L_back_tipToe_grpWolf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_back_footTwist_grpWolf
+      parentName: L_back_tipTwist_grpWolf
+      position: {x: 1.7763568e-17, y: 0.048913043, z: -0.054347824}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_back_fetlockLift_grpWolf
+      parentName: L_back_footTwist_grpWolf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_back_fetlock_IKhandleWolf
+      parentName: L_back_fetlockLift_grpWolf
+      position: {x: -0, y: 0.038043477, z: -0.021739129}
+      rotation: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_back_heelLift_pointGrpWolf
+      parentName: L_back_fetlockLift_grpWolf
+      position: {x: -0, y: 0.038043477, z: -0.021739129}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_back_toeWiggle_grpWolf
+      parentName: L_back_footTwist_grpWolf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_back_coffin_IKhandleWolf
+      parentName: L_back_toeWiggle_grpWolf
+      position: {x: -1.7763568e-17, y: -0.048913043, z: 0.054347824}
+      rotation: {x: 0.25333077, y: 0.66016936, z: 0.25333077, w: 0.66016936}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_back_pastern_IKhandleWolf
+      parentName: L_back_footTwist_grpWolf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.3549159, y: 0.6115838, z: 0.3549159, w: 0.6115838}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_back_controlLeg_IKhandleWolf
+      parentName: L_back_footTwist_grpWolf
+      position: {x: -8.011369e-15, y: 0.038043477, z: -0.021739129}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_autoHeelEnd_locWolf
+      parentName: L_back_foot_ctrlWolf
+      position: {x: 0.0000000042776165, y: -0.0000000041464103, z: -0.000000010549878}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_back_hip_ctrlGrpWolf
+      parentName: L_back_leg_controls_grpWolf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_back_hip_ctrlWolf
+      parentName: L_back_hip_ctrlGrpWolf
+      position: {x: 0.09940887, y: 0.72050434, z: -0.29047891}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_back_hipShift_ctrlWolf
+      parentName: L_back_hip_ctrlWolf
+      position: {x: -0.2733744, y: -0.024852218, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_back_hip_IKhandleWolf
+      parentName: L_back_hipShift_ctrlWolf
+      position: {x: 0.07455666, y: -0.0000000132685125, z: 0.0000000044086246}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_backLeg_stretchMeasureStart_locWolf
+      parentName: L_back_hipShift_ctrlWolf
+      position: {x: 0.07455666, y: -0.0000000132685125, z: 0.0000000044086246}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_back_heelLift_constGrpWolf
+      parentName: L_back_leg_controls_grpWolf
+      position: {x: -0.09940887, y: 0.0923913, z: -0.40545878}
+      rotation: {x: 5.551115e-17, y: 3.5527137e-15, z: 1.054712e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_back_autoHeel_grpWolf
+      parentName: L_back_heelLift_constGrpWolf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_back_heelLift_grpWolf
+      parentName: L_back_autoHeel_grpWolf
+      position: {x: -8.171241e-16, y: -1.2434498e-16, z: 1.4210854e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_back_leg_IKhandleWolf
+      parentName: L_back_heelLift_grpWolf
+      position: {x: -3.5527136e-17, y: 0.19021739, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_backLeg_stretchMeasureEnd_locWolf
+      parentName: L_back_heelLift_grpWolf
+      position: {x: -3.5527136e-17, y: 0.19021739, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_back_poleVectorConstGrpWolf
+      parentName: L_back_leg_controls_grpWolf
+      position: {x: -0.09940887, y: 0.0923913, z: -0.40545878}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_back_poleVector_rotGrpWolf
+      parentName: L_back_poleVectorConstGrpWolf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_back_poleVectorWolf
+      parentName: L_back_poleVector_rotGrpWolf
+      position: {x: -1.5987211e-16, y: 0.30706522, z: 1.502545}
+      rotation: {x: -0.0000000012086421, y: 0.6049068, z: 0.7962963, w: -0.0000000015910504}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_back_leg_controls_grpWolf
+      parentName: animationControls_grpWolf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_back_foot_ctrlWolf
+      parentName: R_back_leg_controls_grpWolf
+      position: {x: 0.0994089, y: 0.0923913, z: -0.405459}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_back_tipToe_grpWolf
+      parentName: R_back_foot_ctrlWolf
+      position: {x: 0.000000003121948, y: -0.086956516, z: 0.07608701}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_back_tipTwist_grpWolf
+      parentName: R_back_tipToe_grpWolf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_back_footTwist_grpWolf
+      parentName: R_back_tipTwist_grpWolf
+      position: {x: 1.7763568e-17, y: 0.04891302, z: -0.054348}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_back_fetlockLift_grpWolf
+      parentName: R_back_footTwist_grpWolf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_back_fetlock_IKhandleWolf
+      parentName: R_back_fetlockLift_grpWolf
+      position: {x: -1.7763568e-17, y: 0.0380435, z: -0.021738999}
+      rotation: {x: -0.5, y: 0.5, z: -0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_back_heelLift_pointGrpWolf
+      parentName: R_back_fetlockLift_grpWolf
+      position: {x: -1.7763568e-17, y: 0.0380435, z: -0.021738999}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_back_toeWiggle_grpWolf
+      parentName: R_back_footTwist_grpWolf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_back_coffin_IKhandleWolf
+      parentName: R_back_toeWiggle_grpWolf
+      position: {x: -1.7763568e-17, y: -0.04891302, z: 0.054348}
+      rotation: {x: 0.66016936, y: -0.25333077, z: 0.66016936, w: -0.25333077}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_back_pastern_IKhandleWolf
+      parentName: R_back_footTwist_grpWolf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.6115838, y: -0.3549159, z: 0.6115838, w: -0.3549159}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_back_controlLeg_IKhandleWolf
+      parentName: R_back_footTwist_grpWolf
+      position: {x: -3.375078e-16, y: 0.0380435, z: -0.021738999}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_autoHeelEnd_locWolf
+      parentName: R_back_foot_ctrlWolf
+      position: {x: 0.000000003121948, y: 2.0141619e-10, z: 0.000000015625}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_back_hip_ctrlGrpWolf
+      parentName: R_back_leg_controls_grpWolf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_back_hip_ctrlWolf
+      parentName: R_back_hip_ctrlGrpWolf
+      position: {x: -0.0994089, y: 0.7205042, z: -0.29047897}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_back_hipShift_ctrlWolf
+      parentName: R_back_hip_ctrlWolf
+      position: {x: 0.27337447, y: -0.024852226, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_back_hip_IKhandleWolf
+      parentName: R_back_hipShift_ctrlWolf
+      position: {x: -0.07455667, y: 0.000000008056641, z: 0.0000000075378415}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_backLeg_stretchMeasureStart_locWolf
+      parentName: R_back_hipShift_ctrlWolf
+      position: {x: -0.07455667, y: 0.000000008056641, z: 0.0000000075378415}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_back_heelLift_constGrpWolf
+      parentName: R_back_leg_controls_grpWolf
+      position: {x: 0.0994089, y: 0.0923913, z: -0.405459}
+      rotation: {x: 1.9428903e-16, y: 1.6653345e-16, z: 2.109424e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_back_autoHeel_grpWolf
+      parentName: R_back_heelLift_constGrpWolf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_back_heelLift_grpWolf
+      parentName: R_back_autoHeel_grpWolf
+      position: {x: -1.065814e-15, y: -5.3290704e-17, z: 1.4210854e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_back_leg_IKhandleWolf
+      parentName: R_back_heelLift_grpWolf
+      position: {x: -5.3290704e-17, y: 0.1902177, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_backLeg_stretchMeasureEnd_locWolf
+      parentName: R_back_heelLift_grpWolf
+      position: {x: -5.3290704e-17, y: 0.1902177, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_back_poleVectorConstGrpWolf
+      parentName: R_back_leg_controls_grpWolf
+      position: {x: 0.0994089, y: 0.0923913, z: -0.405459}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_back_poleVector_rotGrpWolf
+      parentName: R_back_poleVectorConstGrpWolf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_back_poleVectorWolf
+      parentName: R_back_poleVector_rotGrpWolf
+      position: {x: -1.0658141e-16, y: 0.3070652, z: 1.5025449}
+      rotation: {x: 5.112399e-18, y: 0.60490656, z: 0.7962965, w: -8.078004e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ear_const_grpWolf
+      parentName: animationControls_grpWolf
+      position: {x: -6.134297e-17, y: 0, z: 4.2632563e-16}
+      rotation: {x: 1.110223e-16, y: -1.3877788e-17, z: -2.7755576e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ear_ctrlWolf
+      parentName: ear_const_grpWolf
+      position: {x: 5.0319557e-17, y: 1.1554347, z: 0.5869565}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: dontTouchJoints_grpWolf
+      parentName: characterScale_grpWolf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spineJoints_grpWolf
+      parentName: dontTouchJoints_grpWolf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FK_spine_joints_grpWolf
+      parentName: spineJoints_grpWolf
+      position: {x: 4.192059e-17, y: 0.76690817, z: -0.097222224}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FK_spine_back1_jntWolf
+      parentName: FK_spine_joints_grpWolf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FK_spine_back2_jntWolf
+      parentName: FK_spine_back1_jntWolf
+      position: {x: -4.192059e-17, y: 0.004830918, z: -0.11473429}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FK_spine_front1_jntWolf
+      parentName: FK_spine_joints_grpWolf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FK_spine_front2_jntWolf
+      parentName: FK_spine_front1_jntWolf
+      position: {x: 5.689223e-17, y: -0.0065562455, z: 0.15571083}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FK_spine_front3_jntWolf
+      parentName: FK_spine_front2_jntWolf
+      position: {x: 8.982984e-17, y: -0.010351966, z: 0.24585922}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: root_jntWolf
+      parentName: spineJoints_grpWolf
+      position: {x: 1.1832913e-32, y: 0.7717391, z: -0.21195652}
+      rotation: {x: 0.014876575, y: 0.7069503, z: 0.014876575, w: 0.70695025}
+      scale: {x: 1.0000002, y: 1, z: 1.0000002}
+    - name: spine1_jntWolf
+      parentName: root_jntWolf
+      position: {x: -0.07382312, y: 1.4210854e-16, z: 8.196012e-18}
+      rotation: {x: -0, y: -0, z: 9.313226e-10, w: 1}
+      scale: {x: 1.0000002, y: 1, z: 1.0000002}
+    - name: spine2_jntWolf
+      parentName: spine1_jntWolf
+      position: {x: -0.07382312, y: 1.4210854e-16, z: 3.2798125e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000002, y: 1, z: 1.0000002}
+    - name: spine3_jntWolf
+      parentName: spine2_jntWolf
+      position: {x: -0.07382312, y: -1.4210854e-16, z: 4.100843e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000002, y: 1, z: 1.0000002}
+    - name: spine4_jntWolf
+      parentName: spine3_jntWolf
+      position: {x: -0.07382312, y: 5.684342e-16, z: 4.100843e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000002, y: 1, z: 1.0000002}
+    - name: spine5_jntWolf
+      parentName: spine4_jntWolf
+      position: {x: -0.07382312, y: -2.842171e-16, z: 4.0997655e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000002, y: 1, z: 1.0000002}
+    - name: spine6_jntWolf
+      parentName: spine5_jntWolf
+      position: {x: -0.07382312, y: 0, z: 4.100843e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000002, y: 1, z: 1.0000002}
+    - name: spine7_jntWolf
+      parentName: spine6_jntWolf
+      position: {x: -0.07382312, y: 2.842171e-16, z: 4.0997655e-17}
+      rotation: {x: -0.014876576, y: -0.7069503, z: -0.014876576, w: 0.70695025}
+      scale: {x: 1.0000002, y: 1, z: 1.0000002}
+    - name: neckJoints_grpWolf
+      parentName: dontTouchJoints_grpWolf
+      position: {x: 1.8864265e-16, y: 0.75, z: 0.3043478}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: neck_jnt1Wolf
+      parentName: neckJoints_grpWolf
+      position: {x: -1.8864265e-16, y: 4.2632563e-16, z: -0.000000005804974}
+      rotation: {x: -0.25403067, y: 0.65990037, z: -0.25403067, w: 0.65990037}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: neck_jnt2Wolf
+      parentName: neck_jnt1Wolf
+      position: {x: -0.07618782, y: 7.105427e-17, z: -8.458547e-18}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9999999, y: 0.99999994, z: 1}
+    - name: neck_jnt3Wolf
+      parentName: neck_jnt2Wolf
+      position: {x: -0.07618782, y: 1.4210854e-16, z: 3.5840896e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.99999976, y: 1, z: 1}
+    - name: neck_jnt4Wolf
+      parentName: neck_jnt3Wolf
+      position: {x: -0.07618782, y: 0, z: 3.5840896e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: neck_jnt5Wolf
+      parentName: neck_jnt4Wolf
+      position: {x: -0.07618782, y: -1.4210854e-16, z: 3.5840896e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: head_jntWolf
+      parentName: neck_jnt5Wolf
+      position: {x: -0.07618783, y: 2.1316282e-16, z: 3.58409e-17}
+      rotation: {x: -0, y: -0, z: 0.63747936, w: 0.77046746}
+      scale: {x: 1.0000002, y: 0.99999994, z: 1.0000001}
+    - name: headEnd_jntWolf
+      parentName: head_jntWolf
+      position: {x: -0.2893304, y: 0, z: 2.3310325e-17}
+      rotation: {x: -0.22495049, y: -0.67037106, z: -0.22495049, w: 0.67037106}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: ikNeckJoints_grpWolf
+      parentName: dontTouchJoints_grpWolf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IK_neck_jnt1Wolf
+      parentName: ikNeckJoints_grpWolf
+      position: {x: -3.1554436e-32, y: 0.75, z: 0.3043478}
+      rotation: {x: -0.25403067, y: 0.6599003, z: -0.25403067, w: 0.6599003}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IK_neck_jnt2Wolf
+      parentName: IK_neck_jnt1Wolf
+      position: {x: -0.07618782, y: 7.105427e-17, z: -8.458547e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IK_neck_jnt3Wolf
+      parentName: IK_neck_jnt2Wolf
+      position: {x: -0.07618782, y: 1.4210854e-16, z: 3.5840896e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IK_neck_jnt4Wolf
+      parentName: IK_neck_jnt3Wolf
+      position: {x: -0.07618782, y: 0, z: 3.5840896e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IK_neck_jnt5Wolf
+      parentName: IK_neck_jnt4Wolf
+      position: {x: -0.07618782, y: -1.4210854e-16, z: 3.5840896e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IK_head_jntWolf
+      parentName: IK_neck_jnt5Wolf
+      position: {x: -0.07618782, y: 1.4210854e-16, z: 3.5840896e-17}
+      rotation: {x: 0, y: 0, z: 0.63747936, w: 0.77046746}
+      scale: {x: 1, y: 1, z: 1}
+    - name: front_legJoints_const_grpWolf
+      parentName: dontTouchJoints_grpWolf
+      position: {x: -6.310887e-32, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_front_shoulder_jntWolf
+      parentName: front_legJoints_const_grpWolf
+      position: {x: 0.0476767, y: 0.76087, z: 0.35072798}
+      rotation: {x: 0.9482989, y: -0.099602945, z: 0.0998713, w: -0.2843137}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_front_upLeg_jntWolf
+      parentName: R_front_shoulder_jntWolf
+      position: {x: 0.17216286, y: 0.00000095031737, z: 0.00000031664038}
+      rotation: {x: -0.11446579, y: 0.13256018, z: 0.036225423, w: -0.9838766}
+      scale: {x: 1, y: 0.9999999, z: 1.0000001}
+    - name: R_front_upLegTwist_grpWolf
+      parentName: R_front_upLeg_jntWolf
+      position: {x: 0.16529505, y: -0.00000005644312, z: -0.000000035984854}
+      rotation: {x: 0.974949, y: -0.18927412, z: -0.110762835, w: -0.03716628}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_front_upLegTwist_upVectorGrpWolf
+      parentName: R_front_upLegTwist_grpWolf
+      position: {x: -0, y: 0.1038315, z: -8.881784e-18}
+      rotation: {x: -0.39421567, y: 0.33156988, z: 0.624549, w: 0.5870213}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_front_upLegTwist_upVectorCtrlWolf
+      parentName: R_front_upLegTwist_upVectorGrpWolf
+      position: {x: -0, y: -1.4210854e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_front_lowLeg_jntWolf
+      parentName: R_front_upLeg_jntWolf
+      position: {x: 0.16529505, y: -0.00000005644312, z: -0.000000035984854}
+      rotation: {x: 0.9982539, y: -0.043393258, z: -0.016802251, w: -0.036386613}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: R_front_upLegTwist_aimConstGrpWolf
+      parentName: R_front_lowLeg_jntWolf
+      position: {x: -1.4210854e-16, y: 7.105427e-17, z: 2.6645352e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_front_lowLegTwist1_jntWolf
+      parentName: R_front_upLegTwist_aimConstGrpWolf
+      position: {x: 1.4210854e-16, y: 7.105427e-17, z: -3.5527136e-17}
+      rotation: {x: -0, y: -0.0000000069849184, z: 0.000000014901159, w: 1}
+      scale: {x: 1.0000001, y: 1.0000002, z: 0.99999994}
+    - name: R_front_lowLegTwist2_jntWolf
+      parentName: R_front_lowLegTwist1_jntWolf
+      position: {x: 0.1038315, y: -0.00000006922473, z: -0.00000003704483}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: R_front_foot_jntWolf
+      parentName: R_front_lowLeg_jntWolf
+      position: {x: 0.207663, y: -0.00000013844947, z: -0.00000007408966}
+      rotation: {x: 0.00016712396, y: 0.00042341085, z: -0.00079144526, w: 0.9999996}
+      scale: {x: 1.0000001, y: 1.0000002, z: 0.99999994}
+    - name: R_front_fetlock_jntWolf
+      parentName: R_front_foot_jntWolf
+      position: {x: 0.15844904, y: -0.00000024197732, z: -0.00000012938739}
+      rotation: {x: 0.9985767, y: 0.042951178, z: 0.020927029, w: -0.023706052}
+      scale: {x: 1.0000004, y: 1, z: 1.0000001}
+    - name: R_front_pastern_jntWolf
+      parentName: R_front_fetlock_jntWolf
+      position: {x: 0.043816857, y: 0.0000007394648, z: 0.00000035120593}
+      rotation: {x: -0.0051937387, y: 0.009373237, z: -0.01947438, w: 0.999753}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: R_front_coffin_jntWolf
+      parentName: R_front_pastern_jntWolf
+      position: {x: 0.050659757, y: -0.00000015205026, z: -0.00000007416141}
+      rotation: {x: -0.03767679, y: 0.017172683, z: -0.032077305, w: 0.9986274}
+      scale: {x: 1.0000001, y: 1.0000006, z: 1.0000002}
+    - name: R_front_coffinEnd_jntWolf
+      parentName: R_front_coffin_jntWolf
+      position: {x: 0.11867684, y: 0.000000030134096, z: 0.000000017624265}
+      rotation: {x: 0.08846218, y: -0.65024257, z: -0.27782196, w: 0.70155126}
+      scale: {x: 0.9999997, y: 0.99999994, z: 0.9999998}
+    - name: R_front_footTwist1_jntWolf
+      parentName: R_front_foot_jntWolf
+      position: {x: 7.105427e-17, y: 1.7763567e-16, z: -4.4408918e-17}
+      rotation: {x: -1.45519135e-11, y: -0, z: 1.841016e-11, w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000001}
+    - name: R_front_footTwist2_jntWolf
+      parentName: R_front_footTwist1_jntWolf
+      position: {x: 0.07922452, y: -0.00000012098866, z: -0.000000064693694}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: L_front_shoulder_jntWolf
+      parentName: front_legJoints_const_grpWolf
+      position: {x: -0.047676656, y: 0.76086956, z: 0.35072768}
+      rotation: {x: 0.28431198, y: 0.099870056, z: 0.099604875, w: 0.94829935}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_front_upLeg_jntWolf
+      parentName: L_front_shoulder_jntWolf
+      position: {x: -0.17216241, y: 1.4210854e-16, z: -3.5527136e-17}
+      rotation: {x: 0.114466086, y: -0.13255969, z: -0.036228128, w: 0.9838765}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1}
+    - name: L_front_upLegTwist_grpWolf
+      parentName: L_front_upLeg_jntWolf
+      position: {x: -0.1652955, y: -2.1316282e-16, z: 1.7763568e-17}
+      rotation: {x: 0.9749493, y: -0.18927313, z: -0.11076226, w: -0.037166294}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_front_upLegTwist_upVectorGrpWolf
+      parentName: L_front_upLegTwist_grpWolf
+      position: {x: 1.4210854e-16, y: 0.10383137, z: 0}
+      rotation: {x: 0.5870208, y: 0.6245494, z: -0.33156914, w: 0.3942164}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_front_upLegTwist_upVectorCtrlWolf
+      parentName: L_front_upLegTwist_upVectorGrpWolf
+      position: {x: -3.5527136e-17, y: -2.1316282e-16, z: 7.105427e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_front_lowLeg_jntWolf
+      parentName: L_front_upLeg_jntWolf
+      position: {x: -0.1652955, y: -1.5987211e-16, z: 8.881784e-18}
+      rotation: {x: 0.99823487, y: -0.043743297, z: -0.01701059, w: -0.03639237}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: L_front_upLegTwist_aimConstGrpWolf
+      parentName: L_front_lowLeg_jntWolf
+      position: {x: -7.105427e-17, y: 3.5527136e-17, z: -8.881784e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_front_lowLegTwist1_jntWolf
+      parentName: L_front_upLegTwist_aimConstGrpWolf
+      position: {x: -7.105427e-17, y: 7.105427e-17, z: 1.7763568e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: L_front_lowLegTwist2_jntWolf
+      parentName: L_front_lowLegTwist1_jntWolf
+      position: {x: -0.10383137, y: 7.105427e-17, z: 1.7763568e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_front_foot_jntWolf
+      parentName: L_front_lowLeg_jntWolf
+      position: {x: -0.20766275, y: 1.4210854e-16, z: 0}
+      rotation: {x: 0.00016735867, y: 0.00042342162, z: -0.0007915944, w: 0.99999964}
+      scale: {x: 1.0000001, y: 0.9999999, z: 0.9999999}
+    - name: L_front_fetlock_jntWolf
+      parentName: L_front_foot_jntWolf
+      position: {x: -0.15844978, y: 2.6290082e-15, z: 1.4033218e-15}
+      rotation: {x: -0.011901808, y: 0.48891744, z: -0.868517, w: -0.08059963}
+      scale: {x: 1, y: 1.0000001, z: 1.0000002}
+    - name: L_front_pastern_jntWolf
+      parentName: L_front_fetlock_jntWolf
+      position: {x: -0.04381662, y: 0, z: 2.6645352e-17}
+      rotation: {x: -0.0051937783, y: 0.009378076, z: -0.0194846, w: 0.9997527}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: L_front_coffin_jntWolf
+      parentName: L_front_pastern_jntWolf
+      position: {x: -0.05065951, y: 0, z: -2.8865798e-17}
+      rotation: {x: -0.037676975, y: 0.017171206, z: -0.032076474, w: 0.9986274}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000001}
+    - name: L_front_coffinEnd_jntWolf
+      parentName: L_front_coffin_jntWolf
+      position: {x: -0.11867687, y: -3.5527136e-17, z: -1.5543122e-17}
+      rotation: {x: 0.08846226, y: -0.65024257, z: -0.27782184, w: 0.70155126}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: L_front_footTwist1_jntWolf
+      parentName: L_front_foot_jntWolf
+      position: {x: -3.5527136e-17, y: -7.105427e-17, z: -8.881784e-18}
+      rotation: {x: -0.0000004233306, y: -0.86004555, z: -0.5101427, w: 0.008726632}
+      scale: {x: 1, y: 1, z: 1.0000002}
+    - name: L_front_footTwist2_jntWolf
+      parentName: L_front_footTwist1_jntWolf
+      position: {x: -0.07922489, y: 1.3500312e-15, z: 7.3718807e-16}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: L_scapulaRoot_jntWolf
+      parentName: front_legJoints_const_grpWolf
+      position: {x: -0, y: 0.7370312, z: 0.35072768}
+      rotation: {x: 1.1647708e-14, y: -1.3732597e-13, z: -1.224634e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_scapula_jntWolf
+      parentName: L_scapulaRoot_jntWolf
+      position: {x: -0.047676656, y: 0.023838328, z: 0}
+      rotation: {x: -0, y: -0, z: 1.5995328e-27, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_scapulaEnd_jntWolf
+      parentName: L_scapula_jntWolf
+      position: {x: -0.042654563, y: -0.28804347, z: -0.006467637}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_scapulaRoot_jntWolf
+      parentName: front_legJoints_const_grpWolf
+      position: {x: 3.1554436e-32, y: 0.73703164, z: 0.35072798}
+      rotation: {x: 1.1647708e-14, y: -1.3732597e-13, z: -1.224634e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_scapula_jntWolf
+      parentName: R_scapulaRoot_jntWolf
+      position: {x: 0.0476767, y: 0.02383835, z: 0}
+      rotation: {x: -0, y: -0, z: 1.5995328e-27, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_scapulaEnd_jntWolf
+      parentName: R_scapula_jntWolf
+      position: {x: 0.0426545, y: -0.28804398, z: -0.006468}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: back_legJoints_const_grpWolf
+      parentName: dontTouchJoints_grpWolf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_back_upLeg_ctrlJntWolf
+      parentName: back_legJoints_const_grpWolf
+      position: {x: -0.09940887, y: 0.6956521, z: -0.29047891}
+      rotation: {x: -0.6960719, y: -0.12443429, z: 0.6960719, w: 0.12443429}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_back_lowLeg_ctrlJntWolf
+      parentName: L_back_upLeg_ctrlJntWolf
+      position: {x: -0.20470683, y: 7.105427e-17, z: 0}
+      rotation: {x: 6.257239e-23, y: 3.2647867e-23, z: 0.8864834, w: -0.46276048}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_back_foot_ctrlJntWolf
+      parentName: L_back_lowLeg_ctrlJntWolf
+      position: {x: -0.49041006, y: 1.4210854e-16, z: 2.6290082e-15}
+      rotation: {x: 1.5942475e-23, y: -2.0452188e-23, z: 0.61478645, w: 0.7886936}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_back_toe_ctrlJntWolf
+      parentName: L_back_foot_ctrlJntWolf
+      position: {x: -0.26948547, y: 7.105427e-17, z: -5.1514347e-16}
+      rotation: {x: 0.5818089, y: 0.40186858, z: -0.5818089, w: 0.40186858}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_back_upLeg_ctrlJntWolf
+      parentName: back_legJoints_const_grpWolf
+      position: {x: 0.0994089, y: 0.695652, z: -0.29047897}
+      rotation: {x: -0.696072, y: -0.1244342, z: 0.696072, w: 0.1244342}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_back_lowLeg_ctrlJntWolf
+      parentName: R_back_upLeg_ctrlJntWolf
+      position: {x: -0.2047068, y: 0, z: 1.2434498e-16}
+      rotation: {x: -8.785004e-26, y: -4.5954568e-26, z: 0.8864835, w: -0.46276024}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_back_foot_ctrlJntWolf
+      parentName: R_back_lowLeg_ctrlJntWolf
+      position: {x: -0.49041006, y: 2.1316282e-16, z: 1.4210854e-16}
+      rotation: {x: -2.2394926e-26, y: 2.8729692e-26, z: 0.6147865, w: 0.78869355}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_back_toe_ctrlJntWolf
+      parentName: R_back_foot_ctrlJntWolf
+      position: {x: -0.26948544, y: -7.105427e-17, z: 1.7763567e-16}
+      rotation: {x: 0.5818089, y: 0.4018686, z: -0.5818089, w: 0.4018686}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_hip_jnt1Wolf
+      parentName: back_legJoints_const_grpWolf
+      position: {x: 0.09940887, y: 0.72050434, z: -0.29047891}
+      rotation: {x: 8.7393756e-14, y: -1.0656652e-13, z: 0.56650126, w: 0.8240609}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_hip_jnt2Wolf
+      parentName: L_hip_jnt1Wolf
+      position: {x: -0.09940887, y: -0.012426109, z: 0.09940887}
+      rotation: {x: -0, y: -0, z: 1.5995328e-27, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_back_upLegTwist_grpWolf
+      parentName: L_hip_jnt2Wolf
+      position: {x: -0.09940887, y: -0.012426109, z: -0.09940887}
+      rotation: {x: 0.35638723, y: 0.6107276, z: 0.35638723, w: 0.6107276}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_back_upLegTwist_upVectorGrpWolf
+      parentName: L_back_upLegTwist_grpWolf
+      position: {x: -0, y: 0.10299983, z: 1.7763568e-17}
+      rotation: {x: -0.35638723, y: -0.6107276, z: -0.35638723, w: 0.6107276}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_backLeg_twistCtrlWolf
+      parentName: L_back_upLegTwist_upVectorGrpWolf
+      position: {x: -1.7763568e-17, y: 0, z: 3.5527136e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_autoHeelStart_locWolf
+      parentName: L_hip_jnt2Wolf
+      position: {x: -0.09940887, y: -0.012426109, z: -0.09940887}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_back_upLeg_jntWolf
+      parentName: L_hip_jnt2Wolf
+      position: {x: -0.09940887, y: -0.012426109, z: -0.09940887}
+      rotation: {x: 0.6446236, y: 0.45295537, z: 0.02619487, w: 0.61530954}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_back_upLegTwist_aimConstGrpWolf
+      parentName: L_back_upLeg_jntWolf
+      position: {x: -0, y: -3.5527136e-17, z: 1.7763568e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_back_upLegTwist1_jntWolf
+      parentName: L_back_upLegTwist_aimConstGrpWolf
+      position: {x: -0, y: 0, z: 1.7763568e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_back_upLegTwist2_jntWolf
+      parentName: L_back_upLegTwist1_jntWolf
+      position: {x: -0.10299983, y: 3.5527136e-17, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_back_lowLeg_jntWolf
+      parentName: L_back_upLeg_jntWolf
+      position: {x: -0.20599966, y: 0, z: 1.7763568e-17}
+      rotation: {x: -0.000000007450581, y: -0, z: 0.5896063, w: 0.80769086}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
+    - name: L_back_foot_jntWolf
+      parentName: L_back_lowLeg_jntWolf
+      position: {x: -0.31844753, y: 0, z: 1.9539925e-16}
+      rotation: {x: -0.161609, y: -0.093605556, z: -0.31627342, w: 0.93010306}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1}
+    - name: L_back_fetlock_jntWolf
+      parentName: L_back_foot_jntWolf
+      position: {x: -0.19021739, y: -7.105427e-17, z: 5.3290704e-17}
+      rotation: {x: -0.000000021991069, y: -0.000000025032293, z: -0.25666797, w: 0.9664997}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: L_back_pastern_jntWolf
+      parentName: L_back_fetlock_jntWolf
+      position: {x: -0.04381662, y: 7.105427e-17, z: 1.7763568e-17}
+      rotation: {x: -0.0000000049246296, y: 0.0000000019757032, z: -0.15874302, w: 0.98732}
+      scale: {x: 1, y: 1, z: 0.99999976}
+    - name: L_back_coffinEnd_jntWolf
+      parentName: L_back_pastern_jntWolf
+      position: {x: -0.073117524, y: 0, z: 0}
+      rotation: {x: -0.2533309, y: -0.6601693, z: -0.2533309, w: 0.6601693}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
+    - name: L_back_lowLegTwist1_jntWolf
+      parentName: L_back_lowLeg_jntWolf
+      position: {x: -7.105427e-17, y: -7.105427e-17, z: 1.7763568e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: L_back_lowLegTwist2_jntWolf
+      parentName: L_back_lowLegTwist1_jntWolf
+      position: {x: -0.15922377, y: 7.105427e-17, z: 5.3290704e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: R_hip_jnt1Wolf
+      parentName: back_legJoints_const_grpWolf
+      position: {x: -0.0994089, y: 0.7205042, z: -0.29047897}
+      rotation: {x: -6.819691e-14, y: -1.1976341e-13, z: -0.56650126, w: 0.8240609}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_hip_jnt2Wolf
+      parentName: R_hip_jnt1Wolf
+      position: {x: 0.0994089, y: -0.012426113, z: 0.0994089}
+      rotation: {x: -0, y: -0, z: 1.5995328e-27, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_back_upLegTwist_grpWolf
+      parentName: R_hip_jnt2Wolf
+      position: {x: 0.0994089, y: -0.012426113, z: -0.0994089}
+      rotation: {x: 0.6107276, y: -0.35638723, z: 0.6107276, w: -0.35638723}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_back_upLegTwist_upVectorGrpWolf
+      parentName: R_back_upLegTwist_grpWolf
+      position: {x: 1.4210854e-16, y: 0.10299989, z: -1.7763568e-17}
+      rotation: {x: 0.6107276, y: -0.35638723, z: 0.6107276, w: 0.35638723}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_backLeg_twistCtrlWolf
+      parentName: R_back_upLegTwist_upVectorGrpWolf
+      position: {x: 1.7763568e-17, y: 1.4210854e-16, z: -3.5527136e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_autoHeelStart_locWolf
+      parentName: R_hip_jnt2Wolf
+      position: {x: 0.0994089, y: -0.012426113, z: -0.0994089}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_back_upLeg_jntWolf
+      parentName: R_hip_jnt2Wolf
+      position: {x: 0.0994089, y: -0.012426113, z: -0.0994089}
+      rotation: {x: 0.6153093, y: -0.026194837, z: 0.45295566, w: -0.6446235}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000002}
+    - name: R_back_upLegTwist_aimConstGrpWolf
+      parentName: R_back_upLeg_jntWolf
+      position: {x: 1.4210854e-16, y: -5.3290704e-17, z: -3.5527136e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_back_upLegTwist1_jntWolf
+      parentName: R_back_upLegTwist_aimConstGrpWolf
+      position: {x: 1.4210854e-16, y: -5.3290704e-17, z: -3.5527136e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000002}
+    - name: R_back_upLegTwist2_jntWolf
+      parentName: R_back_upLegTwist1_jntWolf
+      position: {x: 0.10299989, y: 0.000000079012054, z: 5.3290704e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1.0000002}
+    - name: R_back_lowLeg_jntWolf
+      parentName: R_back_upLeg_jntWolf
+      position: {x: 0.20599978, y: 0.00000015802411, z: 3.5527136e-17}
+      rotation: {x: -0, y: -0, z: -0.5896062, w: -0.8076908}
+      scale: {x: 1.0000008, y: 1.0000002, z: 1.0000005}
+    - name: R_back_foot_jntWolf
+      parentName: R_back_lowLeg_jntWolf
+      position: {x: 0.3184471, y: 0.00000048283505, z: -1.7763568e-17}
+      rotation: {x: -0.16160925, y: -0.09360577, z: -0.31627327, w: 0.930103}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: R_back_fetlock_jntWolf
+      parentName: R_back_foot_jntWolf
+      position: {x: 0.1902177, y: 7.105427e-17, z: 1.7763568e-17}
+      rotation: {x: -0.000000021991067, y: -0.000000025032296, z: 0.25666794, w: -0.9664996}
+      scale: {x: 1.0000004, y: 0.9999998, z: 1}
+    - name: R_back_pastern_jntWolf
+      parentName: R_back_fetlock_jntWolf
+      position: {x: 0.04381657, y: 0.00000012403473, z: 1.7763568e-17}
+      rotation: {x: 0.000000004924626, y: -0.0000000019757085, z: -0.15874298, w: 0.98732}
+      scale: {x: 1.0000002, y: 0.9999998, z: 0.99999994}
+    - name: R_back_coffinEnd_jntWolf
+      parentName: R_back_pastern_jntWolf
+      position: {x: 0.073117636, y: -0.00000013379294, z: -1.7763568e-17}
+      rotation: {x: -0.25333086, y: -0.66016936, z: -0.2533309, w: 0.6601693}
+      scale: {x: 0.99999994, y: 1.0000005, z: 1.0000006}
+    - name: R_back_lowLegTwist1_jntWolf
+      parentName: R_back_lowLeg_jntWolf
+      position: {x: -7.105427e-17, y: -1.4210854e-16, z: -3.5527136e-17}
+      rotation: {x: -0, y: -0, z: -0.000000029802319, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: R_back_lowLegTwist2_jntWolf
+      parentName: R_back_lowLegTwist1_jntWolf
+      position: {x: 0.15922356, y: 0.00000024141755, z: 1.7763568e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: earJoints_const_grpWolf
+      parentName: dontTouchJoints_grpWolf
+      position: {x: -6.134297e-17, y: 0, z: 4.2632563e-16}
+      rotation: {x: 1.110223e-16, y: -1.3877788e-17, z: -2.7755576e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_ear_jnt1Wolf
+      parentName: earJoints_const_grpWolf
+      position: {x: -0.0786538, y: 1.0145482, z: 0.6120074}
+      rotation: {x: -0.23481162, y: 0.39045677, z: -0.45876193, w: 0.7628529}
+      scale: {x: 1.0000002, y: 1, z: 1.0000001}
+    - name: L_ear_jnt2Wolf
+      parentName: L_ear_jnt1Wolf
+      position: {x: -0.0339088, y: 5.551115e-19, z: -7.105427e-17}
+      rotation: {x: -0, y: -0, z: 0.0000000074505797, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: L_ear_jnt3Wolf
+      parentName: L_ear_jnt2Wolf
+      position: {x: -0.03350456, y: 5.551115e-19, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
+    - name: L_ear_jnt4Wolf
+      parentName: L_ear_jnt3Wolf
+      position: {x: -0.02837717, y: -2.8366196e-16, z: 1.4210854e-16}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: L_ear_jnt5Wolf
+      parentName: L_ear_jnt4Wolf
+      position: {x: -0.025917241, y: 5.551115e-19, z: -3.5527136e-17}
+      rotation: {x: 0.34016532, y: -0.3401655, z: 0.6199092, w: 0.61990935}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: R_ear_jnt1Wolf
+      parentName: earJoints_const_grpWolf
+      position: {x: 0.0786538, y: 1.01455, z: 0.61200696}
+      rotation: {x: 0.7628529, y: 0.458762, z: 0.39045674, w: 0.23481159}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000005}
+    - name: R_ear_jnt2Wolf
+      parentName: R_ear_jnt1Wolf
+      position: {x: 0.03390735, y: 0.0000010232275, z: -0.00000016017539}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000005}
+    - name: R_ear_jnt3Wolf
+      parentName: R_ear_jnt2Wolf
+      position: {x: 0.03350042, y: 0.0000022140036, z: 0.000000023849163}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000006}
+    - name: R_ear_jnt4Wolf
+      parentName: R_ear_jnt3Wolf
+      position: {x: 0.02838096, y: -0.000002130897, z: 0.00000015334359}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000004}
+    - name: R_ear_jnt5Wolf
+      parentName: R_ear_jnt4Wolf
+      position: {x: 0.025914742, y: 0.0000012392211, z: -0.0000005834614}
+      rotation: {x: 0.34016535, y: -0.34016547, z: 0.6199093, w: 0.6199093}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000006}
+    - name: dontTouch_grpWolf
+      parentName: characterScale_grpWolf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_curveWolf
+      parentName: dontTouch_grpWolf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_IKhandleWolf
+      parentName: dontTouch_grpWolf
+      position: {x: 1.8864265e-16, y: 0.75, z: 0.3043478}
+      rotation: {x: 0.014876574, y: 0.7069503, z: 0.014876574, w: 0.7069503}
+      scale: {x: 1, y: 1, z: 1}
+    - name: neck_curveWolf
+      parentName: dontTouch_grpWolf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: neck_IKhandleWolf
+      parentName: dontTouch_grpWolf
+      position: {x: 5.0319557e-17, y: 1.0054348, z: 0.5869565}
+      rotation: {x: -0.25403067, y: 0.6599003, z: -0.25403067, w: 0.6599003}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_front_scapulaHelperWolf
+      parentName: dontTouch_grpWolf
+      position: {x: -0.11542507, y: 0.76086956, z: 0.35072768}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_frontLeg_stretchMeasure_distWolf
+      parentName: dontTouch_grpWolf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_front_scapulaHelperWolf
+      parentName: dontTouch_grpWolf
+      position: {x: 0.115425095, y: 0.76087, z: 0.35072798}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_frontLeg_stretchMeasure_distWolf
+      parentName: dontTouch_grpWolf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_backLeg_stretchMeasure_distWolf
+      parentName: dontTouch_grpWolf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_autoHeelMeasure_distWolf
+      parentName: dontTouch_grpWolf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_backLeg_stretchMeasure_distWolf
+      parentName: dontTouch_grpWolf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_autoHeelMeasure_distWolf
+      parentName: dontTouch_grpWolf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: heightMeasureStart_locWolf
+      parentName: dontTouch_grpWolf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: heightMeasureEnd_locWolf
+      parentName: dontTouch_grpWolf
+      position: {x: -0, y: 0.75, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: heightMeasure_distWolf
+      parentName: dontTouch_grpWolf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: main_ctrlWolf
+      parentName: characterScale_grpWolf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head_worldSpace_grpWolf
+      parentName: main_ctrlWolf
+      position: {x: 9.261229e-17, y: 1.0054348, z: 0.5869565}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: neck_worldSpace_grpWolf
+      parentName: main_ctrlWolf
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: tail_worldSpace_grpWolf
+      parentName: main_ctrlWolf
+      position: {x: -1.5777218e-32, y: 0.7771739, z: -0.42391303}
+      rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &5521275829921653313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4519531346889769676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87143ed3ca01b5245a5059f0803b42d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 1.28
+  hasInteracted: 0
+  interactionZone: {fileID: 0}
+  item: {fileID: 11400000, guid: 117e1bd2020595942a5b98726197e96e, type: 2}
+--- !u!1001 &4520807724387539230
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1613519613959122, guid: 597ebb7c9c3ed98488753c915fd9393e, type: 3}
+      propertyPath: m_Name
+      value: KnightsSword
+      objectReference: {fileID: 0}
+    - target: {fileID: 4957063932156512, guid: 597ebb7c9c3ed98488753c915fd9393e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.347916
+      objectReference: {fileID: 0}
+    - target: {fileID: 4957063932156512, guid: 597ebb7c9c3ed98488753c915fd9393e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.04738008
+      objectReference: {fileID: 0}
+    - target: {fileID: 4957063932156512, guid: 597ebb7c9c3ed98488753c915fd9393e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -9.901108
+      objectReference: {fileID: 0}
+    - target: {fileID: 4957063932156512, guid: 597ebb7c9c3ed98488753c915fd9393e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 4957063932156512, guid: 597ebb7c9c3ed98488753c915fd9393e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4957063932156512, guid: 597ebb7c9c3ed98488753c915fd9393e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4957063932156512, guid: 597ebb7c9c3ed98488753c915fd9393e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4957063932156512, guid: 597ebb7c9c3ed98488753c915fd9393e, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4957063932156512, guid: 597ebb7c9c3ed98488753c915fd9393e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4957063932156512, guid: 597ebb7c9c3ed98488753c915fd9393e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4957063932156512, guid: 597ebb7c9c3ed98488753c915fd9393e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 64903976576559120, guid: 597ebb7c9c3ed98488753c915fd9393e,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 64903976576559120, guid: 597ebb7c9c3ed98488753c915fd9393e,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 597ebb7c9c3ed98488753c915fd9393e, type: 3}
+--- !u!1 &4519531346889769676 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1613519613959122, guid: 597ebb7c9c3ed98488753c915fd9393e,
+    type: 3}
+  m_PrefabInstance: {fileID: 4520807724387539230}
+  m_PrefabAsset: {fileID: 0}

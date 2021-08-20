@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 805da609c69ce844da501379df38d245, type: 3}
+  m_Name: VialFilledWithWater
+  m_EditorClassIdentifier: 
+  itemToCraft: {fileID: 11400000, guid: 53cfffe24442cbd49a73fb689e7e1b43, type: 2}
+  itemsNeededToCraft:
+  - {fileID: 11400000, guid: 26809ac3af3b8694eb5bc69e4911bd9c, type: 2}
